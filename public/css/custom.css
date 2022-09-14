@@ -1,1 +1,24 @@
 /* Add here all your CSS customizations */
+:root {
+    --primary: #2c70b9;
+    --primary-deep: #0444acff;
+    --secondary: #05b4f5;
+    --white: rgb(253, 253, 253);
+    --background-color: ;
+    --danger: rgb(250, 110, 67);
+    --black: #000;
+    --charcoal: #222;
+    --grey1: #3a3b3c;
+    --grey: #666;
+    --grey3: #828282;
+    --grey4: #eceff7;
+    --grey5: #f2f2f2;
+    --green: #059284;
+    --primary-light: #4784d3;
+    --primary-lighter: #b4ccfa;
+    --pink: #f56680;
+}
+
+.bounce-loader .bounce1, .bounce-loader .bounce2, .bounce-loader .bounce3{
+    background-color:var(--primary);
+}

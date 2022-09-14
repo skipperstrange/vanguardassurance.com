@@ -12,6 +12,7 @@ define('TWITTER', 'https://twitter.com/VanguardGH');
 define('FACEBOOK', 'https://www.facebook.com/VanguardGH/');
 define('INSTAGRAM', 'https://instagram.com/vanguardgh');
 define('LINKEDIN', 'https://linkedin.com/in/vanguard-assurance-902a5051');
+define('GOOGLE_ANALYITICS_ID', '');
 
 
 
