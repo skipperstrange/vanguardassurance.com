@@ -9,6 +9,10 @@ define("ROUTES", [
 
 //# controller:aztrasC view:index
 ['url'=>'@^$@', 'controller'=>'index', 'view'=>'index'],
+['url'=>'@^contact-us/$@', 'controller'=>'contact-us', 'view'=>'contact-us'],
+['url'=>'@^contact-us$@', 'controller'=>'contact-us', 'view'=>'contact-us'],
+['url'=>'@^team/$@', 'controller'=>'team', 'view'=>'team'],
+['url'=>'@^team$@', 'controller'=>'team', 'view'=>'team'],
 
 //#Passing parameters through route - (?P<parameter-name>\w)
 ['url'=>'@^product/(?P<id>\d+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],

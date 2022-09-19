@@ -14,6 +14,7 @@
 </head>
 
 <body <?php if($view == 'index'): ?>class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}" <?php endif; ?>>
+<div class="body"><!-- closes at footer -->
     <?php if($view == 'index'): ?>
     <div class="loading-overlay">
 			<div class="bounce-loader">

@@ -1,0 +1,143 @@
+<?php
+
+//Function that generates navigation layout
+function generateNavigation($navArray){
+    $navLinks = '';
+    $dropdown = 'dropdown';
+    $mega_content = '';
+   
+    foreach($navArray as $label => $link){
+   
+        if(is_array($navArray[$label]['href'])){
+            if($navArray[$label]['mega'] == true){
+                $dropdown = "dropdown-mega";
+                $mega_content = "dropdown-mega";
+            }
+           $navLinks .= "<li class='dropdown $dropdown'>"; //dropdown-mega
+           $navLinks .= "<a "; 
+           if($navArray[$label]['internal_link']){
+            $navLinks .= "href='#$label' ";
+           }else{
+            $navLinks .= "href='#' ";
+            }
+           $navLinks.= "class='dropdown-item dropdown-toggle'>". format_string($label) ."</a>";
+           $navLinks .= "<ul class='dropdown-menu'>";
+
+           foreach($navArray[$label]['href'] as $label => $link){
+            $navLinks .= ' <li>
+            <a href="'.$link['href'].'" class="dropdown-item">'. format_string($label) .'</a>
+            </li>
+            ';
+            }
+            
+           $navLinks .= "
+           </ul>";
+        
+        
+        }else{
+            $navLinks .= "<li class='dropdown '>
+            <a class='dropdown-item' href='$link[href]'>
+            ". format_string($label) ."
+            </a>
+        </li>";
+           }
+    }
+    return $navLinks;
+}    
+    
+/*******************************************************************************************88
+*Function that comverts strings t to acsii.
+* http://cubiq.org/the-perfect-php-clean-url-generator
+* @author
+* @param string $str - string to be worked on
+* @param array $replace - array of characters to be stripped out
+* @param delimiter - what the characters should be replaced with
+********************************************************************************************99*/
+
+//Original
+function toAscii($str, $replace = array(), $delimiter = null)
+{
+    if (!empty($replace)) {
+        $str = str_replace((array )$replace, ' ', $str);
+    }
+
+    $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $str);
+    $clean = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", '', $clean);
+    $clean = trim($clean, '-');
+    $clean = preg_replace("/[\/_|+ -]+/", $delimiter, $clean);
+
+    return $clean;
+}
+
+//lesser options
+//toAsciiMed("i'll be back") or toAsciiMed("i'll be-- --back") to "i-ll-be-back"
+function toAsciiMed($str, $delimiter = null)
+{
+    $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $str);
+    $clean = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", $delimiter, $clean);
+    $clean = strtolower(trim($clean, '-'));
+    $clean = preg_replace("/[\/_|+ -]+/", $delimiter, $clean);
+
+    return $clean;
+}
+
+
+function toAsciiMin($str)
+{
+    $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $str);
+    $clean = preg_replace("/[^a-zA-Z0-9\/_| -]/", '', $clean);
+    $clean = strtolower(trim($clean, '-'));
+    $clean = preg_replace("/[\/_| -]+/", '-', $clean);
+
+    return $clean;
+}
+
+/********************************************************************************
+********************************************************************************/
+
+function format_string($str, $mode = 1){
+    $str = toAscii($str, ['_'], ' ');
+    $str = ucfirst(strtolower($str));
+
+    if($mode == 2){
+        $str = ucwords(strtolower($str));
+    }
+
+    return $str;
+}
+
+
+//Handles only Font Awesome Icons
+function generateIcons($icons, $attributes = [], $fab =true){
+    $attributesFormated = '';
+    $fa = 'fab';
+
+    if($fab == false){
+        $fa = 'fa';
+    }
+    if(count($attributes) > 0){
+        foreach($attributes as $property => $value){
+            if(is_int($property) || $property == 0){
+                $attributesFormated .= $value.' ';
+            }else{
+                $attributesFormated .= " $property=\"$value\" ";
+            }
+        }
+    }
+    $iconString = '';
+    if(is_array($icons)){
+        foreach($icons as $icon){
+            $iconString .= "<i class=\"$fa $icon\" ".generate_attributes($attributes)."> </i>
+";
+        }
+    }else{
+        $iconString .= "<i class=\"$fa $icons\" ".generate_attributes($attributes)."> </i>
+";
+    }
+
+    return $iconString;
+}
+
+function whatsappUrl($contact){
+    return 'https://wa.me/'.$contact;
+}

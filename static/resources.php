@@ -42,11 +42,26 @@ $revolutionSliderCss = [
 ];
 
 $js = [
+    ["src"=>VENDOR_PATH."jquery/jquery.min.js"],
     ["src"=>VENDOR_PATH."modernizr/modernizr.min.js"]
 ];
 
 $footerJs = [
-    ["src"=>VENDOR_PATH."jquery/jquery.min.js"],
+    ["src"=>JS_PATH."theme.js"],
+    ['src'=>VENDOR_PATH.'rs-plugin/js/jquery.themepunch.tools.min.js'],
+    ['src'=>VENDOR_PATH.'rs-plugin/js/jquery.themepunch.revolution.min.js'],
+
+    //Comment out in production mode
+/*    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.actions.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.carousel.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.kenburn.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.layeranimation.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.migration.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.navigation.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.parallax.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.slideanims.min'],
+    [src=>VENDOR_PATH.'rs-plugin/js/extensions/revolution.extension.video.min'],
+    */
     ["src"=>VENDOR_PATH."jquery.appear/jquery.appear.min.js"],
     ["src"=>VENDOR_PATH."jquery.easing/jquery.easing.min.js"],
     ["src"=>VENDOR_PATH."jquery.cookie/jquery.cookie.min.js"],
@@ -58,7 +73,6 @@ $footerJs = [
     ["src"=>VENDOR_PATH."jquery.gmap/jquery.gmap.min.js"],
     ["src"=>VENDOR_PATH."jquery.lazyload/jquery.lazyload.min.js"],
     ["src"=>VENDOR_PATH."isotope/jquery.isotope.min.js"],
-    ["src"=>VENDOR_PATH."owl.carousel/owl.carousel.min.js"],
     ["src"=>VENDOR_PATH."magnific-popup/jquery.magnific-popup.min.js"],
     ["src"=>VENDOR_PATH."vide/jquery.vide.min.js"],
     ["src"=>VENDOR_PATH."vivus/vivus.min.js"],

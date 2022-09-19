@@ -3847,7 +3847,7 @@ window.theme.fn = {
 	PluginTweets.defaults = {
 		username: null,
 		count: 2,
-		URL: 'php/twitter-feed.php',
+		URL: 'public/3rd-party/twitter-feed.php',
 		iconColor: false
 	};
 
