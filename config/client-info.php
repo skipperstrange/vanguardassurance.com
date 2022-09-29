@@ -23,6 +23,10 @@ define('LAT', '5.5636111');
 define('GOOGLE_MAPS_API_KEY', 'AIzaSyCa_kMyTsMkHPPfjekZj3ywpqJAHQCv1QA');
 define('GOOGLE_ANALYITICS_ID', '');
 
+//Apps mobile
+define('PLAYSTORE_LINK', 'https://play.google.com/store/apps/details?id=com.vanguard.app');
+define('APP_STORE_LINK', 'https://apps.apple.com/gh/app/vanguard-assurance/id1547086101');
+
 
 
 

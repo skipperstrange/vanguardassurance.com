@@ -11,6 +11,7 @@ if(file_exists(VIEWS.$view.'.php')){
     @include_once VIEWS.$view.'.php';
 }
 else{
+    $pageTitle = "404";
     @include_once VIEWS.'layouts'.DS.'_404.php';
 }
 ?>

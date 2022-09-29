@@ -141,3 +141,13 @@ function generateIcons($icons, $attributes = [], $fab =true){
 function whatsappUrl($contact){
     return 'https://wa.me/'.$contact;
 }
+
+function limit_to_numwords($string, $numwords)
+{
+    $excerpt = explode(' ', $string, $numwords + 1);
+    if (count($excerpt) >= $numwords) {
+        array_pop($excerpt);
+    }
+    $excerpt = implode(' ', $excerpt);
+    return $excerpt;
+}

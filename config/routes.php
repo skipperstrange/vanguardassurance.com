@@ -11,11 +11,32 @@ define("ROUTES", [
 ['url'=>'@^$@', 'controller'=>'index', 'view'=>'index'],
 ['url'=>'@^contact-us/$@', 'controller'=>'contact-us', 'view'=>'contact-us'],
 ['url'=>'@^contact-us$@', 'controller'=>'contact-us', 'view'=>'contact-us'],
+
+['url'=>'@^about-us$@', 'controller'=>'about-us', 'view'=>'about-us'],
+['url'=>'@^about-us/$@', 'controller'=>'about-us', 'view'=>'about-us'],
+
 ['url'=>'@^team/$@', 'controller'=>'team', 'view'=>'team'],
 ['url'=>'@^team$@', 'controller'=>'team', 'view'=>'team'],
 
+['url'=>'@^team#board/$@', 'controller'=>'team', 'view'=>'team'],
+['url'=>'@^team#board$@', 'controller'=>'team', 'view'=>'team'],
+
+
+['url'=>'@^api/$@', 'controller'=>'api', 'view'=>''],
+['url'=>'@^api$@', 'controller'=>'api', 'view'=>''],
+
+
+['url'=>'@^products#corporate/$@', 'controller'=>'products', 'view'=>'products'],
+['url'=>'@^products#corporate$@', 'controller'=>'products', 'view'=>'products'],
+
+['url'=>'@^products/$@', 'controller'=>'products', 'view'=>'products'],
+['url'=>'@^products$@', 'controller'=>'products', 'view'=>'products'],
+
+['url'=>'@^products#personal_lines/$@', 'controller'=>'products', 'view'=>'products'],
+['url'=>'@^products#personal_lines$@', 'controller'=>'products', 'view'=>'products'],
+
 //#Passing parameters through route - (?P<parameter-name>\w)
-['url'=>'@^product/(?P<id>\d+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
+//['url'=>'@^products/(?P<id>\d+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
 //Strict for digits
 //['url'=>'@^product/(?P<id>\w+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
 

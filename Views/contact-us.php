@@ -1,18 +1,15 @@
 
-<section class="section section-primary">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h4 class="mb-0">Contact Us</h4>
-                <p class="mb-0">Feel free to ask for details, don't save any questions!</p>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php
+include_once PARTIALS.'sub-header.php';
+?>
+
 <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 <div id="googlemaps" class="google-map mt-0" style="height: 500px;">
-<div class="et_pb_text_inner"><p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.021523532671!2d-0.19739193603724475!3d5.563827345966047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a7837aec08b%3A0x29f2c1402983026f!2sVanguard%20Assurance%20Company%20Limited!5e0!3m2!1sen!2sgh!4v1651650610209!5m2!1sen!2sgh" width="100%" height="500" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p></div>
-			
+    <div class="et_pb_text_inner">
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.021523532671!2d-0.19739193603724475!3d5.563827345966047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a7837aec08b%3A0x29f2c1402983026f!2sVanguard%20Assurance%20Company%20Limited!5e0!3m2!1sen!2sgh!4v1651650610209!5m2!1sen!2sgh" width="100%" height="500" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+    </div>
 </div>
 
 <div class="container">
@@ -90,7 +87,7 @@
 
             <h4 class="pt-5">Get in <strong>Touch</strong></h4>
             <p class="lead mb-0 text-4">
-
+                What ever your needs, our agents are ever ready and available for you. Just Give us a call or send us a message!
             </p>
 
         </div>
@@ -101,23 +98,38 @@
 
 </div>
 
-<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer">
-<div class="container">
-    <div class="row">
-        <div class="col-md-9 col-lg-9">
-            <div class="call-to-action-content">
-                <h2 class="font-weight-normal text-6 mb-0"><?= CLIENT_NAME ?> is <strong class="font-weight-extra-bold">everything policy</strong> you need to give you that <strong class="font-weight-extra-bold">Security</strong>!</h2>
-                <p class="mb-0">The <strong class="font-weight-extra-bold">No. 1</strong> insurance company in Ghana</p>
+<!-- Locations -->
+
+<hr class="solid my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="300">
+
+<div class="container py-2">
+    <div class="row mb-3 pb-3">
+        <div class="col-12">
+        <h4 class="mt-2 mb-1">Our <strong>Offices</strong></h4>
+        </div>
+        <?php foreach($data['branches'] as $branch): 
+            ?>
+        <div class="col-md-6 col-lg-4 appear-animation mb-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+            <div class="card bg-color-grey card-text-color-hover-light border-0 bg-color-hover-primary transition-2ms box-shadow-1 box-shadow-1-primary box-shadow-1-hover">
+                <div class="card-body">
+                    <h4 class="card-title mb-1 text-3 font-weight-bold transition-2ms"><?= $branch['branch'] ?></h4>
+                    <ul class="list list-icons list-icons-style-2 mt-2 text-2">
+           <?php if(trim($branch['location'] ) != ''): ?>
+                    <li><i class="fas fa-map-marker-alt top-6"></i> <?= $branch['location'] ?>, <?= $branch['landmark'] ?></li>
+             <?php endif ?>
+                    <li><i class="fas fa-phone top-6"></i> <?= $branch['contact'] ?></li>
+                    <li><i class="fas fa-envelope top-6"></i> <strong class="text-dark"></strong> <a href="mailto:<?= SUPPORT_EMAIL ?>"><?= SUPPORT_EMAIL ?></a></li>
+                </ul>
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-lg-3">
-            <div class="call-to-action-btn">
-                <a href="<?= whatsappUrl(SUPPORT_CONTACT_1_CLEAN) ?>" target="_blank" class="btn btn-success btn-lg text-3 font-weight-semibold px-4 py-3"><i class="fab fa-whatsapp text-color-success"> </i> Chat with us</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
-            </div>
-        </div>
+        <?php
+        endforeach;
+        ?>		
     </div>
 </div>
-</section>
+
+<?php include PARTIALS.'footer-banner.php'; ?>
 
 
 		<script>
@@ -132,7 +144,7 @@
 			*/
 
 			// Map Markers
-			var mapMarkers = [{
+			/*var mapMarkers = [{
 				address: "<?= STREET_ADDRESS ?>",
 				html: "<strong>Head Office</strong><br> <?= STREET_ADDRESS ?>",
 				icon: {
@@ -172,5 +184,6 @@
 				e.preventDefault();
 				$('#googlemaps').gMap("centerAt", options);
 			}
+            */
 
 		</script>

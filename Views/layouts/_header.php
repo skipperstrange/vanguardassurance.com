@@ -10,7 +10,7 @@
     <!-- javascript -->
     <?= generate_tag_group('script',$js) ?>
 
-    <?= create_tag_element(_title($pageTitle)) ?>
+    <?= create_tag_element('title','',$pageTitle) ?>
 </head>
 
 <body <?php if($view == 'index'): ?>class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}" <?php endif; ?>>

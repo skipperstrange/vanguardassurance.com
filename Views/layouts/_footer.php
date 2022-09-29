@@ -48,7 +48,7 @@
 							<h5 class="text-3 mb-3">FOLLOW US</h5>
 							<ul class="social-icons">
                 <?php            
-                foreach ($socialMediaLinks as $socialMediaLink) {
+                foreach ($data['socialMediaLinks'] as $socialMediaLink) {
 
                                     ?>
                                     <li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'] ?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?>"></i></a></li>

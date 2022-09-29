@@ -22,7 +22,7 @@
 									<div class="header-row">
 										<ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean">
                                             <?php 
-                                            foreach ($socialMediaLinks as $socialMediaLink) {
+                                            foreach ($data['socialMediaLinks'] as $socialMediaLink) {
 
                                                 ?>
 											<li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'] ?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?>"></i></a></li>

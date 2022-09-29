@@ -16,7 +16,8 @@ $styles = [
 
 	//Vendor CSS
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."bootstrap/css/bootstrap.min.css"],
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."fontawesome-free/css/all.min.css"],
+		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."fontawesome-free/css/all.min.css"], fontawsome 5
+		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"], // fontawsome 6
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."animate/animate.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."simple-line-icons/css/simple-line-icons.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
@@ -32,6 +33,7 @@ $styles = [
 
 		// Theme Custom CSS -->
 		["rel"=>"stylesheet", "href"=>CSS_PATH."custom.css"],
+		["rel"=>"stylesheet", "href"=>CSS_PATH."d-insurance.css"],
 
 ];
 
