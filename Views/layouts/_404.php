@@ -4,7 +4,7 @@ $subHeaderTitle = '<h1>Page not found!!</h1>';
 $pageTitle = '404';
 
 include_once PARTIALS.'sub-header-left.php';
-include_once STATIC_DATA.'nav.php';
+include_once DATA.'nav.php';
 ?>
 
 <div class="container">

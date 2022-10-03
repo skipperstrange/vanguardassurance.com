@@ -1,5 +1,7 @@
 <?php
-include_once PARTIALS.'sub-header.php';
+//include_once PARTIALS.'sub-header.php';
+include PARTIALS.'header-jumbo.php';
+
 ?>
 
 <div class="container py-4">
@@ -84,7 +86,10 @@ include_once PARTIALS.'sub-header.php';
 <div class="modal fade" id="<?= $largeModalId ?>" tabindex="-1" role="dialog" aria-labelledby="<?= $largeModalId ?>Label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-           
+            <div class="modal-header" style="border:none;">
+                <!--h4 class="modal-title" id="largeModalLabel"></h4-->
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
             <div class="modal-body">
                 
             <div class="container py-2">
@@ -92,10 +97,9 @@ include_once PARTIALS.'sub-header.php';
 					<div class="row">
 						<div class="col-lg-3 mt-4 mt-lg-0">
 							<div class="d-flex justify-content-center mb-4">
-								
-									<div class="profile-image-inner-container">
-										<img class="img-fluid rounded mb-4" src="<?= $member['img'] ?>">
-								</div>
+                                <div class="profile-image-inner-container">
+                                    <img class="img-fluid rounded mb-4" src="<?= $member['img'] ?>" />
+                                </div>
 							</div>
                         </div>
                         <div class="col-lg-9 mt-4 mt-lg-0">
@@ -108,9 +112,12 @@ include_once PARTIALS.'sub-header.php';
 							<p class="lead appear-animation text-2" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700"><?= $member['info']; ?></p>
 							<hr class="solid my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 							<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
-								<div class="col-lg-6">
-									<a href="mailto:<?=SUPPORT_EMAIL?>" class="btn btn-modern btn-dark mt-3">Get In Touch</a>
-								</div>
+								<?php 
+                                //echo
+                                "<div class=\"col-lg-6\">
+									<a href=\"mailto: SUPPORT_EMAIL\" class=\"btn btn-modern btn-dark mt-3\">Get In Touch</a>
+								</div>";
+                                ?>
 								<div class="col-sm-6 text-lg-right my-4 my-lg-0">
 									<!--strong class="text-uppercase text-1 mr-3 text-dark">follow me</strong-->
 									<ul class="social-icons float-lg-right">

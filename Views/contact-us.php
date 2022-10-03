@@ -108,6 +108,8 @@ include_once PARTIALS.'sub-header.php';
         <h4 class="mt-2 mb-1">Our <strong>Offices</strong></h4>
         </div>
         <?php foreach($data['branches'] as $branch): 
+        $email = strtolower(toAscii($branch['branch'], [' ','-'], '')). '@vanguardassurance.com';
+        ;
             ?>
         <div class="col-md-6 col-lg-4 appear-animation mb-3" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
             <div class="card bg-color-grey card-text-color-hover-light border-0 bg-color-hover-primary transition-2ms box-shadow-1 box-shadow-1-primary box-shadow-1-hover">
@@ -118,7 +120,7 @@ include_once PARTIALS.'sub-header.php';
                     <li><i class="fas fa-map-marker-alt top-6"></i> <?= $branch['location'] ?>, <?= $branch['landmark'] ?></li>
              <?php endif ?>
                     <li><i class="fas fa-phone top-6"></i> <?= $branch['contact'] ?></li>
-                    <li><i class="fas fa-envelope top-6"></i> <strong class="text-dark"></strong> <a href="mailto:<?= SUPPORT_EMAIL ?>"><?= SUPPORT_EMAIL ?></a></li>
+                    <li><i class="fas fa-envelope top-6"></i> <strong class="text-dark"></strong> <a href="mailto:<?= $email ?>"><?= $email ?></a></li>
                 </ul>
                 </div>
             </div>

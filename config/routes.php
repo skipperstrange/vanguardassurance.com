@@ -26,17 +26,11 @@ define("ROUTES", [
 ['url'=>'@^api$@', 'controller'=>'api', 'view'=>''],
 
 
-['url'=>'@^products#corporate/$@', 'controller'=>'products', 'view'=>'products'],
-['url'=>'@^products#corporate$@', 'controller'=>'products', 'view'=>'products'],
-
 ['url'=>'@^products/$@', 'controller'=>'products', 'view'=>'products'],
 ['url'=>'@^products$@', 'controller'=>'products', 'view'=>'products'],
 
-['url'=>'@^products#personal_lines/$@', 'controller'=>'products', 'view'=>'products'],
-['url'=>'@^products#personal_lines$@', 'controller'=>'products', 'view'=>'products'],
-
 //#Passing parameters through route - (?P<parameter-name>\w)
-//['url'=>'@^products/(?P<id>\d+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
+['url'=>'@^products/(?P<id>\d+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
 //Strict for digits
 //['url'=>'@^product/(?P<id>\w+)/$@', 'controller'=>'admin', 'view'=>'admin/index'],
 

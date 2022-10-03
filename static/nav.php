@@ -5,8 +5,8 @@ $navLinks = [
     
     'products' =>['href' => [ 
       //     'new fire claim' => ['href' => _link('fire-claim','fire-claim')],
-           'personal_insurance' => ['href' => _link('products#personal_lines'),],
-           'corporate' => ['href' => _link('products#corporate'),],
+           'personal_insurance' => ['href' => _link('products#_personal_lines'),],
+           'corporate' => ['href' => _link('products#_corporate'),],
       //      'FAQ' => ['href'=> '#']
         ],
          'internal_link' => true

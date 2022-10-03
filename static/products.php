@@ -4,12 +4,12 @@ $data['products']['personal_lines'] = [
     [
         'product_name'=>'motor',
         'title'=>'Motor',
-        'description'=>'Vanguard Motor insurance is designed to take care of liabilities to third parties as well as your vehicle due to accidental damage, fire theft and bodily injuries in accordance with the third-party insurance act (1958). Categories are Comprehensive, Third Party and Third-Party Fire & Theft.',
+        'description'=>'Vanguard Motor insurance is designed to take care of liabilities to third parties as well as your vehicle due to accidental damage, fire theft and bodily injuries in accordance with the third-party insurance act (1958). Categories are Comprehensive, Third Party and Third-Party Fire & Theft. ',
         'writeup'=>'',
         'fa-icon' => 'fa-duatone fa-car',
         'hero_bg' => '',
         'icon' =>IMAGES_URL. 'icons/insurance_car.png',
-        'template' => false,
+        'template' => true,
     ],
 
     [
@@ -42,22 +42,94 @@ $data['products']['personal_lines'] = [
         'icon' =>IMAGES_URL. 'icons/personal_accident.png',
         'template' => false,
     ],
-   /* [
-        'product_name'=>'fire',
+   /*
+    */
+];
+
+
+$data['products']['corporate'] = [
+    [
+        'product_name'=>'motor',
         'title'=>'Motor',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duatone fa-car',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/insurance_car.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'fire',
+        'title'=>'Fire',
         'description'=>'',
         'writeup'=>'',
         'fa-icon' => 'fa-duotone fa-tire-flat',
         'hero_bg' => '',
         'icon' =>IMAGES_URL. 'icons/.png',
-        'template' => false,
+        'template' => true,
     ],
-    */
+    [
+        'product_name'=>'general_accident',
+        'title'=>'General Accident',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duotone fa-tire-flat',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'engineering',
+        'title'=>'Engineering',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duotone fa-tire-flat',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'bond',
+        'title'=>'Bond',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duotone fa-tire-flat',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'workmen_compensation',
+        'title'=>'Workmen Compensation',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duotone fa-tire-flat',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'marine',
+        'title'=>'Marine',
+        'description'=>'',
+        'writeup'=>'',
+        'fa-icon' => 'fa-duotone fa-tire-flat',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
+    [
+        'product_name'=>'aviation',
+        'title'=>'Aviation',
+        'writeup'=>'',
+        'fa-icon' => '',
+        'hero_bg' => '',
+        'icon' =>IMAGES_URL. 'icons/.png',
+        'template' => true,
+    ],
 ];
 
-$data['products']['corporate'] = [
 
-];
 
 $data['productTags'] = [
     ['tag'=>'personal_lines', 'label'=>'personal_lines', 'enabled'=> true],

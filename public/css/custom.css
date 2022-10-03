@@ -19,6 +19,10 @@
     --pink: #f56680;
 }
 
+body{
+	color: #444;
+}
+
 .thumb-info .thumb-info-title {
 
     font-size: 15px;

@@ -1,5 +1,6 @@
 <?php
-include_once PARTIALS.'sub-header.php';
+//include_once PARTIALS.'sub-header.php';
+include PARTIALS.'header-jumbo.php';
 $active_index = 'personal_lines';
 $active = '';
 ?>
@@ -47,7 +48,7 @@ $active = '';
                                     }
                                     ?>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#<?= $product['product_name']?>" data-toggle="tab"><?=format_string($product['title']);?></a>
+                                        <a class="nav-link" href="#<?= $index.'_'.$product['product_name']?>" data-toggle="tab"><?=format_string($product['title']);?></a>
                                     </li>
                                 <?php 
                                 }
@@ -66,16 +67,17 @@ $active = '';
                                             $active = '';
                                         }
                                         ?>
-                                    <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?= $product['product_name']?>">
-                                        <h4><?=format_string($product['title']);?></h4>
+                                    <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>">
+                                        <h4 class="text-uppercase"><strong><?=format_string($product['title']);?></strong></h4>
                                         <p><?php 
                                         if($product['template'] == true){
-                                            include_once STATIC_DATA.'products.php';
+                                            include STATIC_DATA.'/products/'.$index.'_'.$product['product_name'].'.php';
                                         }
                                         else{
                                             echo $product['description'] ;
                                         }
-                                        ?></p>    
+                                        ?></p>  
+                                        <p><?= $product['writeup'];?></p>  
                                     </div>
                                     <?php 
                                 } ?>
@@ -90,3 +92,5 @@ $active = '';
         </div>
     </div>
 </div>
+<?php include PARTIALS.'footer-banner.php'; 
+?>

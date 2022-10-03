@@ -9,7 +9,11 @@
             </div>
         </div>
         <div class="row justify-content-center gy-5 mb-5">
-            <?php foreach ($products as $product){?>
+            <?php
+            $i = 0;
+            foreach ($products as $product){
+                if($i < 4){
+                    ?>
             <div class="col-9 col-sm-10 col-md-7 col-lg-6 col-xl-3 text-center appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
                 <div class="animated-icon animated fadeDown svg-fill-color-primary mb-3">
                     <h1 class="text-12 text-color-primary">
@@ -27,7 +31,13 @@
                     </span-->
                 </a>
             </div>
-            <?php } ?>
+
+<?php
+     $i++;           }
+                ?>
+            
+            <?php
+         } ?>
         </div>
         <div class="row">
             <div class="col text-center">
