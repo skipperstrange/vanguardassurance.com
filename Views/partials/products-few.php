@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <h2 class="text-color-dark font-weight-medium text-8 mb-5 appear-animation animated fadeInUpShorterPlus appear-animation-visible" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
-                <strong>Products</strong>
+                <strong>Explore Our Personal Line Products</strong>
             </h2>
             </div>
         </div>
@@ -21,14 +21,14 @@
                     </h1>
                 </div>
                 <h3 class="text-color-dark font-weight-bold text-transform-none text-5 mb-4-5"><?= $product['title'] ?></h3>
-                <p class="text-3-5"><?= limit_to_numwords($product['description'], 20); ?>... </p>
-                <a href="" class="text-decoration-none custom-link-hover-effects">
-                    <!--span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
+                <p class="text-3-5"><?= limit_to_numwords($product['description'], 26); ?>... </p>
+                <a href="<?=_link('products') ?>" class="text-decoration-none custom-link-hover-effects">
+                    <span class="custom-view-more d-inline-flex font-weight-semibold text-color-primary">
                         View More
                         <i class="animated-icon animated fadeIn svg-fill-color-primary ms-2 fa fa-arrow-right">
 
                         </i>
-                    </span-->
+                    </span>
                 </a>
             </div>
 

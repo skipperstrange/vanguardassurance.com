@@ -142,6 +142,23 @@ $data['board'] = [
         Frederick is a Chartered Insurer and an Associate of the Chartered Insurance Institute, UK.  He also holds an MBA and BA in Economics and Law, both from the Kwame Nkrumah University of Science and Technology. In addition, Frederick holds a Group Diploma in Marketing awarded by the London Chamber of Commerce and Industry (LCCI).",
         'img' => $imagesFolder.'FredSaka.jpg',
         'enabled'=> true,
+        'tags'=>["board"],
+        'contact_media'=>[
+            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
+            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
+             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
+        ]
+    ],
+    [
+        'title'=>"Chief Executive Officer",
+        'name'=>"Fredrick Adotey Saka",
+        'info'=>"Frederick has over 15 years of industry experience spanning Technical Operations, Marketing and Strategy. He joined Vanguard Assurance in 2018 as the Chief Operations Officer and was appointed Chief Executive Officer a year later.
+
+        Prior to joining Vanguard Assurance, he worked for Saham Insurance Ghana Limited as the Chief Operations Officer, where he was responsible for steering the company’s Technical Operations.
+        
+        Frederick is a Chartered Insurer and an Associate of the Chartered Insurance Institute, UK.  He also holds an MBA and BA in Economics and Law, both from the Kwame Nkrumah University of Science and Technology. In addition, Frederick holds a Group Diploma in Marketing awarded by the London Chamber of Commerce and Industry (LCCI).",
+        'img' => $imagesFolder.'FredSaka.jpg',
+        'enabled'=> true,
         'tags'=>["management"],
         'contact_media'=>[
             'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
@@ -155,7 +172,6 @@ $data['board'] = [
         'info'=>"Samuel is a Chartered Accountant with over 14 years’ experience. His forte is using computerized systems to harmonize and optimize finance, accounting and operational functions. He joined Vanguard Assurance in 2020.
 
         Prior to joining Vanguard Assurance, he worked at Unique Insurance Ghana Company Limited as the General Manager responsible for Finance and Administration.
-        
         Samuel is a Chartered Accountant and a Fellow of the Chartered Association of Certified Accountants (FCCA).  He also holds an MSc Accounting with Finance degree from the London South Bank University, UK.",
         'img' => $imagesFolder.'samuel-awotwe.jpg',
         'enabled'=> true,
@@ -170,9 +186,7 @@ $data['board'] = [
         'title'=>"Head, Distribution",
         'name'=>"Samuel Asumang",
         'info'=>"Samuel is a consummate professional with over 13 years of marketing, sales and retail experience. He joined Vanguard Assurance in 2019, bringing on board his extensive experience and expertise in training and mentoring salespeople, resolving customer complaints, as well as developing and implementing customer acquisition plans.
-
         Prior to joining Vanguard Assurance, he worked at StarLife Assurance, where his natural knack for sales and numbers, as well as his relentless pursuit of success, saw him rise from Sales Manager through Branch Manager to Zonal Manager, and finally Head of Retail over a 12-year period.
-        
         Samuel has a Diploma in Insurance from Ghana Insurance College and a BA in Information Studies from the University of Ghana.",
         'img' => $imagesFolder.'samuel-asumang.jpg',
         'enabled'=> true,

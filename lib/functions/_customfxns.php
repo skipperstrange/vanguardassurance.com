@@ -7,23 +7,37 @@ function generateNavigation($navArray){
     $mega_content = '';
    
     foreach($navArray as $label => $link){
-   
-        if(is_array($navArray[$label]['href'])){
+
+        if(isset($link['target'])){
+            $targetOption = " target='$link[target]'";
+        }
+
+        if(isset($navArray[$label]['children'])){
             if($navArray[$label]['mega'] == true){
                 $dropdown = "dropdown-mega";
                 $mega_content = "dropdown-mega";
             }
+            if(isset($link['target'])){
+                $childTargetOption = " target='$link[target]'";
+            }
+
            $navLinks .= "<li class='dropdown $dropdown'>"; //dropdown-mega
            $navLinks .= "<a "; 
-           if($navArray[$label]['internal_link']){
-            $navLinks .= "href='#$label' ";
+           if($navArray[$label]['internal_link'] == true){
+            
+            $navLinks .= "href='#' $childTargetOption ";
            }else{
-            $navLinks .= "href='#' ";
+                if(trim($link['href']) != ''){
+                    $navLinks .= "href='$link[href]' $targetOption";
+                }
+                else{
+                    $navLinks .= "href='#' ";
+                    }
             }
            $navLinks.= "class='dropdown-item dropdown-toggle'>". format_string($label) ."</a>";
            $navLinks .= "<ul class='dropdown-menu'>";
 
-           foreach($navArray[$label]['href'] as $label => $link){
+           foreach($navArray[$label]['children'] as $label => $link){
             $navLinks .= ' <li>
             <a href="'.$link['href'].'" class="dropdown-item">'. format_string($label) .'</a>
             </li>

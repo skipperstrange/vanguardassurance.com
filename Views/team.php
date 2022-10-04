@@ -10,7 +10,7 @@ include PARTIALS.'header-jumbo.php';
         <?php
         foreach( $data['teamFilterTags'] as $tag ) {
             ?>
-        <li class="nav-item" data-option-value=".<?= $tag['tag']?>"><a class="nav-link text-1 text-uppercase" href="#"><?= $tag['label']?></a></li></a></li>
+        <li class="nav-item" data-option-value=".<?= $tag['tag']?>"><a class="nav-link text-2 text-uppercase" style="font-weight:bolder;" href="#"><?= $tag['label']?></a></li>
     <?php   
     }
         ?>
@@ -109,7 +109,7 @@ include PARTIALS.'header-jumbo.php';
 							<div class="overflow-hidden mb-3">
 								<p class="font-weight-bold text-primary text-uppercase mb-0"><?= $member['title'] ?></p>
 							</div>
-							<p class="lead appear-animation text-2" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700"><?= $member['info']; ?></p>
+							<p class=" appear-animation text-2" data-appear-animation="fadeInUpShorter" style="" data-appear-animation-delay="700"><?= $member['info']; ?></p>
 							<hr class="solid my-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900">
 							<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
 								<?php 
@@ -138,9 +138,9 @@ include PARTIALS.'header-jumbo.php';
             </div>
                 
             </div>
-            <div class="modal-footer">
+            <!--div class="modal-footer">
                 <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-            </div>
+            </div-->
         </div>
     </div>
 </div>

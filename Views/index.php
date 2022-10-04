@@ -72,10 +72,8 @@
 						</div>
 					</div>
 					<?php include PARTIALS.'right-flair.php'; ?>
-					
-					
 				</section>
-
+				
 				<?php
                     include PARTIALS.'products-few.php';
                     ?>

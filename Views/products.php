@@ -16,7 +16,7 @@ $active = '';
 
             ?>
                 <li class="nav-item <?= $active; ?>">
-                    <a class="nav-link text-1 text-uppercase " href="#_<?= $index?>" data-toggle="tab"><?=format_string($index) ?></a>
+                    <a class="nav-link text-2 text-uppercase " style="font-weight:700;" href="#_<?= $index?>" data-toggle="tab"><?=format_string($index) ?></a>
                 </li>
             <?php
                 } ?>
@@ -30,7 +30,7 @@ $active = '';
                         $active = '';
                     }
 					?>
-            <div class="tab-pane text-1 <?= $active?>" id="_<?=$index?>">
+            <div class="tab-pane text-2 <?= $active?>" id="_<?=$index?>">
 
                 <div class="container py-2">
                 <h1><?=format_string($index)?></h1>
@@ -69,7 +69,7 @@ $active = '';
                                         ?>
                                     <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>">
                                         <h4 class="text-uppercase"><strong><?=format_string($product['title']);?></strong></h4>
-                                        <p><?php 
+                                        <p class="text-2"><?php 
                                         if($product['template'] == true){
                                             include STATIC_DATA.'/products/'.$index.'_'.$product['product_name'].'.php';
                                         }
@@ -92,5 +92,7 @@ $active = '';
         </div>
     </div>
 </div>
-<?php include PARTIALS.'footer-banner.php'; 
+<?php 
+include PARTIALS.'footer-banner.php'; 
+include_once PARTIALS.'get-quote-block.php';
 ?>

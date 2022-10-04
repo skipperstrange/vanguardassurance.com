@@ -1,4 +1,6 @@
-<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer">
+<section class="call-to-action call-to-action-default overflow-hidden with-button-arrow content-align-center call-to-action-in-footer">
+    <?php include PARTIALS.'top-left-flair.php'?>
+
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-lg-8">
