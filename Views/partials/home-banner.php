@@ -35,8 +35,6 @@
 					data-bgfit="cover" 
 					data-bgrepeat="no-repeat" 
 					class="rev-slidebg">
-					<div class="col-lg-6"></div>
-					<div class="col-lg-6"></div>
 				<div class="tp-caption"
 					data-x="center" data-hoffset="['-150','-150','-150','-240']"
 					data-y="center" data-voffset="['-50','-50','-50','-75']"
@@ -128,8 +126,8 @@
 					style="color: #b5b5b5;">A single policy for <strong class="text-color-light">your car and home</strong></div>
 				
 			</li>
-			<li class="slide-overlay slide-overlay-primary" data-transition="fade">
-				<img src="<?= IMAGES_URL?>dummy/slides/slide-bg-6.jpg"  
+			<li class="slide-overlay" data-transition="fade">
+				<img src="<?= IMAGES_URL?>matrix-guy.png"  
 					alt=""
 					data-bgposition="center center" 
 					data-bgfit="cover" 
@@ -149,7 +147,7 @@
 					data-start="700"
 					data-fontsize="['16','16','16','40']"
 					data-lineheight="['25','25','25','45']"
-					data-transform_in="y:[-50%];opacity:0;s:500;">WE CREATE DESIGNS, WE ARE</div>
+					data-transform_in="y:[-50%];opacity:0;s:500;">STAY AHEAD OF THE</div>
 
 				<div class="tp-caption"
 					data-x="center" data-hoffset="['145','145','145','320']"
@@ -163,14 +161,14 @@
 					data-x="center" data-hoffset="['-155','-155','-155','-255']"
 					data-y="center"
 					data-fontsize="['145','145','145','250']"
-					data-lineheight="['150','150','150','260']">P</div>
+					data-lineheight="['150','150','150','260']">C</div>
 
 				<div class="tp-caption font-weight-extra-bold text-color-light"
 					data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 					data-x="center" data-hoffset="['-80','-80','-80','-130']"
 					data-y="center"
 					data-fontsize="['145','145','145','250']"
-					data-lineheight="['150','150','150','260']">O</div>
+					data-lineheight="['150','150','150','260']">U</div>
 
 				<div class="tp-caption font-weight-extra-bold text-color-light"
 					data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
@@ -184,21 +182,21 @@
 					data-x="center" data-hoffset="['65','65','65','115']"
 					data-y="center"
 					data-fontsize="['145','145','145','250']"
-					data-lineheight="['150','150','150','260']">T</div>
+					data-lineheight="['150','150','150','260']">V</div>
 
 				<div class="tp-caption font-weight-extra-bold text-color-light"
 					data-frames='[{"delay":2100,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 					data-x="center" data-hoffset="['139','139','139','240']"
 					data-y="center"
 					data-fontsize="['145','145','145','250']"
-					data-lineheight="['150','150','150','260']">O</div>
+					data-lineheight="['150','150','150','260']">E</div>
 
 				<div class="tp-caption font-weight-light text-color-light"
 					data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 					data-x="center"
 					data-y="center" data-voffset="['85','85','85','140']"
 					data-fontsize="['18','18','18','40']"
-					data-lineheight="['26','26','26','45']">The best choice for your new website</div>
+					data-lineheight="['26','26','26','45']">WITH <stron>VANGUARD ASSURANCE</stron>g</div>
 				
 			</li>
 		</ul>
