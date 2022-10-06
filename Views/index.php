@@ -1,5 +1,5 @@
 
-				<section class="section position-relative border-0 m-0" style="background-image:  url(<?=IMAGES_URL?>office-24.jpg); background-position: center; background-size: cover;">
+				<section class=" position-relative border-0 m-0" style="background-image: ; background-position: center; background-size: cover;">
 				<?php include PARTIALS.'home-banner.php'; ?>
                 </section>
 
