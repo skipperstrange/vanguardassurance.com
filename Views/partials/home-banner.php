@@ -1,5 +1,6 @@
+<!-- Option 1-->
 <!--div class="container position-relative pb-5 mb-5">
-	<?php include_once PARTIALS.'left-flair-full.php' ?>
+<?php include_once PARTIALS.'left-flair-full.php' ?>
 	
 	<?= create_tag_element('img',['src'=>IMAGES_URL.'vman.png', 'class'=>'img-fluid position-absolute top-10 right-0 z-index-1 d-none d-lg-block appear-animation animated fadeIn appear-animation-visible',
 					'data-appear-animation'=>"fadeIn", 'data-appear-animation-delay'=>"100",
@@ -24,8 +25,10 @@
 		</div>
 	</div>
 </div-->
+<!-- End Option 1-->
 		
-<div class="slider-container rev_slider_wrapper" style="height: 670px;">
+<!-- Option 2-->
+<!--div class="slider-container rev_slider_wrapper" style="height: 670px;">
 	<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 		<ul>
 			<li data-transition="fade">
@@ -35,8 +38,6 @@
 					data-bgfit="cover" 
 					data-bgrepeat="no-repeat" 
 					class="rev-slidebg">
-					<div class="col-lg-6"></div>
-					<div class="col-lg-6"></div>
 				<div class="tp-caption"
 					data-x="center" data-hoffset="['-150','-150','-150','-240']"
 					data-y="center" data-voffset="['-50','-50','-50','-75']"
@@ -81,7 +82,7 @@
 				
 			</li>
 			<li class="slide-overlay" data-transition="fade">
-				<img src="<?= IMAGES_URL?>homeprehensive-centered.png"  
+				<img src="<?= IMAGES_URL?>value-man-home-car.png"  
 					alt=""
 					data-bgposition="center center" 
 					data-bgfit="cover" 
@@ -118,7 +119,7 @@
 					data-fontsize="['50','50','50','90']"
 					data-lineheight="['55','55','55','95']" style="background-color:orange; padding:auto 10px; color:#blue;">&nbsp;&nbsp;HOMEPRENSIVE&nbsp;&nbsp;&nbsp;</div>
 
-				<div class="tp-caption font-weight-light ws-normal text-center"
+					<div class="tp-caption font-weight-light ws-normal text-center"
 					data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 					data-x="center"
 					data-y="center" data-voffset="['60','60','60','105']"
@@ -126,9 +127,23 @@
 					data-fontsize="['18','18','18','40']"
 					data-lineheight="['26','26','26','45']"
 					style="color: #b5b5b5;">A single policy for <strong class="text-color-light">your car and home</strong></div>
+
+				
+					<div class="tp-caption font-weight-light ws-normal text-center"
+					data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+					data-x="center"
+					data-y="center" data-voffset="['60','60','60','105']"
+					data-width="['530','530','530','1100']"
+					data-fontsize="['18','18','18','40']"
+					data-lineheight="['26','26','26','45']"
+					style="color: #b5b5b5;">
+					
+				</div>
+
+					
 				
 			</li>
-			<li class="slide-overlay" data-transition="fade">
+			<li data-transition="fade">
 				<img src="<?= IMAGES_URL?>matrix-guy.png"  
 					alt=""
 					data-bgposition="center center" 
@@ -203,24 +218,237 @@
 			</li>
 		</ul>
 	</div>
-</div>
+</div-->
 <link rel='stylesheet' href="<?= CSS_PATH ?>slider.layer.css">
 <link rel='stylesheet' href="<?= CSS_PATH ?>slider.settings.css">
 <link rel='stylesheet' href="<?= CSS_PATH ?>slider.navigation.css">
-
-<script>
-/*
-Name: 			View - Home
-Written by: 	Okler Themes - (http://www.okler.net)
-Theme Version:	8.0.0
-*/
-
-(function($) {
-
-'use strict';
+<!-- End Option 2 -->
+<!-- End Option 2 -->
+<!-- End Option 2 -->
 
 
-}).apply(this, [jQuery]);
-</script>
 
+<!-- Option 3-->
+<!-- Option 3-->
+<!-- Option 3-->
+<div class="slider-container rev_slider_wrapper" style="height: 670px;">
+
+					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'sliderLayout': 'fullscreen', 'fullScreenOffsetContainer': '#header', 'delay': 9000, 'gridwidth': [1410,1110,930,690], 'gridheight': 700, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1422,1182,974], 'navigation' : {'arrows': { 'enable': true, 'style': 'metis arrows-primary arrows-rounded' }, 'bullets': {'enable': false}}}">
+						<ul>
+							<li class="slide-overlay slide-overlay-primary text-white" data-transition="fade">
+								<img src="img/slides/slide-bg-light-1.jpg"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+
+								<div class="tp-caption d-none d-sm-block"
+									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;","to":"o:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+								    data-type="image" 
+								    data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
+								    data-y="center"
+								    data-width="['auto']"
+									data-height="['auto']"
+									data-basealign="grid"><img src="<?=IMAGES_URL.'vman.png'?>" alt="" height="100" width="100"></div>
+								<!--	
+								<div class="tp-caption tp-resizeme d-none d-sm-block"
+									data-frames='[{"delay":3000,"speed":2000,"from":"opacity:0;x:0;","to":"o:1;x:0;","ease":"Power1.easeIn"},{"delay":"wait","speed":500,"to":"opacity:0;fb:0;","ease":"Power1.easeIn"}]'
+								    data-type="image" 
+								    data-x="['right','right','right','center']" data-hoffset="['270','270','120','0']"
+								    data-y="center"
+								    data-width="['auto']"
+								    data-height="['auto']"
+									data-basealign="grid"><img src="img/slides/slide-corporate-15-2.png" alt=""></div>
+									-->
+								<div class="tp-caption overlay d-none d-sm-block d-lg-none overlay-show overlay-color-primary overlay-op-8"
+									data-frames='[{"delay":0}]'
+									data-x="center"
+									data-y="center"
+									data-height="1000"
+									data-width="100%"
+									data-basealign="slide"></div>
+									
+								<div class="tp-caption font-weight-extra-bold text-color-light line ws-normal"
+									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['-85','-85','-85','-85']"
+									data-width="['500','500','500','500']"
+									data-fontsize="['48','48','48','48']"
+									data-lineheight="['55','55','55','55']"
+									data-textAlign="['left','left','left','center']">
+									HOMEPREHENSIVE <br>
+									Fa Bom PrƐko
+								</div>
+
+								
+								<div class="tp-caption font-weight-light text-color-light mt-2 opacity-7 ws-normal"
+									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['10','10','10','10']"
+									data-width="['900','900','900','900']"
+									data-fontsize="['27','27','27','33']"
+									data-lineheight="['26','26','26','26']"
+									data-textAlign="['left','left','left','center']">A single insurance policy for your vehicle and home.
+									</div>
+								
+
+
+								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
+									href="#"
+									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['65','65','65','65']"
+									data-paddingtop="['16','16','16','24']"
+									data-paddingbottom="['16','16','16','24']"
+									data-paddingleft="['30','30','30','30']"
+									data-paddingright="['15','15','15','15']"
+									data-fontsize="['13','13','13','18']"
+									data-lineheight="['20','20','20','22']">Get a Quote<i class="fas fa-arrow-right ml-4 pl-1 mr-2 text-4"></i></a>
+
+							</li>
+							<li data-transition="fade" class=" overlay-show overlay-color-primary">
+								<img src="<?=IMAGES_URL.'vbg-fade.jpg'?>"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+
+								<div class="tp-caption tp-resizeme d-none d-sm-block"
+									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;","to":"o:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+								    data-type="image" 
+								    data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+								    data-y="center"
+								    data-width="['auto']"
+								    data-height="['auto']"
+									data-basealign="grid"><img src="<?=IMAGES_URL.'matrix-guy-small-left.png'?>" alt=""></div>
+									
+								<!--<div class="tp-caption tp-resizeme d-none d-sm-block"
+									data-frames='[{"delay":3000,"speed":2000,"from":"opacity:0;x:0;","to":"o:1;x:0;","ease":"Power1.easeIn"},{"delay":"wait","speed":500,"to":"opacity:0;fb:0;","ease":"Power1.easeIn"}]'
+								    data-type="image" 
+								    data-x="['left','left','left','center']" data-hoffset="['270','270','120','0']"
+								    data-y="center"
+								    data-width="['auto']"
+								    data-height="['auto']"
+									data-basealign="grid"><img src="img/slides/circle.png" alt=""></div>-->
+									
+								<div class="tp-caption overlay d-none d-sm-block d-lg-none overlay-op-8"
+									data-frames='[{"delay":0}]'
+									data-x="center"
+									data-y="center"
+									data-height="1000"
+									data-width="100%"
+									data-basealign="slide"></div>
+
+
+								<h1 class="tp-caption font-weight-extra-bold text-color-dark line ws-normal"
+									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['-85','-85','-85','-85']"
+									data-width="['500','500','500','500']"
+									data-fontsize="['48','48','48','48']"
+									data-lineheight="['55','55','55','55']"
+									data-textAlign="['left','left','left','center']">STAY AHEAD OF THE CURVE.</h1>
+
+
+								<div class="tp-caption font-weight-light text-color-dark opacity-7 ws-normal"
+									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+									data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['0','0','0','0']"
+									data-width="['500','500','500','500']"
+									data-fontsize="['18','18','18','22']"
+									data-lineheight="['26','26','26','26']"
+									data-textAlign="['left','left','left','center']">WITH VANGUARD ASSURANCE<br>
+								</div>
+
+								<a class="tp-caption d-inline-flex align-items-center btn btn-primary font-weight-bold rounded"
+									href="#"
+									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="center" data-hoffset="['170','170','70','0']"
+									data-y="center" data-voffset="['65','65','65','65']"
+									data-paddingtop="['16','16','16','24']"
+									data-paddingbottom="['16','16','16','24']"
+									data-paddingleft="['30','30','30','30']"
+									data-paddingright="['15','15','15','15']"
+									data-fontsize="['13','13','13','18']"
+									data-lineheight="['20','20','20','22']">GET a Quote <i class="fas fa-arrow-right ml-4 pl-1 mr-2 text-4"></i></a>
+
+							</li>
+
+							<li class=" slide-overlay-none text-white" data-transition="fade">
+								<img src="<?=IMAGES_URL.'slide-2-empty-reverse.jpg'?>"  
+									alt=""
+									data-bgposition="center center" 
+									data-bgfit="cover" 
+									data-bgrepeat="no-repeat" 
+									class="rev-slidebg">
+
+								
+								<!--	
+								<div class="tp-caption tp-resizeme d-none d-sm-block"
+									data-frames='[{"delay":3000,"speed":2000,"from":"opacity:0;x:0;","to":"o:1;x:0;","ease":"Power1.easeIn"},{"delay":"wait","speed":500,"to":"opacity:0;fb:0;","ease":"Power1.easeIn"}]'
+								    data-type="image" 
+								    data-x="['right','right','right','center']" data-hoffset="['270','270','120','0']"
+								    data-y="center"
+								    data-width="['auto']"
+								    data-height="['auto']"
+									data-basealign="grid"><img src="img/slides/slide-corporate-15-2.png" alt=""></div>
+									-->
+								<div class="tp-caption overlay d-none d-sm-block d-lg-none overlay-show overlay-color-primary overlay-op-8"
+									data-frames='[{"delay":0}]'
+									data-x="center"
+									data-y="center"
+									data-height="1000"
+									data-width="100%"
+									data-basealign="slide"></div>
+									
+								<div class="tp-caption font-weight-extra-bold text-color-light line ws-normal"
+									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['-85','-85','-85','-85']"
+									data-width="['500','500','500','500']"
+									data-fontsize="['48','48','48','48']"
+									data-lineheight="['55','55','55','55']"
+									data-textAlign="['left','left','left','center']">
+									ALL YOUR FUN MEMORIES <br>
+									SAFELY INSURED
+								</div>
+
+								
+								<div class="tp-caption font-weight-light text-color-light mt-2 opacity-7 ws-normal"
+									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['10','10','10','10']"
+									data-width="['900','900','900','900']"
+									data-fontsize="['27','27','27','33']"
+									data-lineheight="['26','26','26','26']"
+									data-textAlign="['left','left','left','center']"><strong> With Vanguard Assurance</strong>
+									</div>
+								
+
+
+								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
+									href="#"
+									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-y="center" data-voffset="['65','65','65','65']"
+									data-paddingtop="['16','16','16','24']"
+									data-paddingbottom="['16','16','16','24']"
+									data-paddingleft="['30','30','30','30']"
+									data-paddingright="['15','15','15','15']"
+									data-fontsize="['13','13','13','18']"
+									data-lineheight="['20','20','20','22']">Get a Quote<i class="fas fa-arrow-right ml-4 pl-1 mr-2 text-4"></i></a>
+
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Only Use for Option 3-->
+				<!-- Only Use for Option 3-->
 				
+<!-- End Option 3-->
+<!-- End Option 3-->
+<!-- End Option 3-->
+	

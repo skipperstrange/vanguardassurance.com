@@ -40,7 +40,7 @@
 						</div>
 						<div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
 							<div class="col-lg-5 text-center text-lg-start appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
-								<img src="<?=IMAGES_URL ?>value-man-home-car.png" class="img-fluid mb-4 mb-lg-0" alt="">
+								<img src="<?=IMAGES_URL ?>homeprehensive.png" class="img-fluid mb-4 mb-lg-0" alt="">
 							</div>
 							<div class="col-lg-6 text-center text-lg-start appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
 								<h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Policies At <strong>Incredible Rates</strong></h2>

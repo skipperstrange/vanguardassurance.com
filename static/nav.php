@@ -22,7 +22,7 @@ $navLinks = [
         ],
     ],,
     */
-    'quotes' => ['href'=>'https://app.vanguardassurance.com/', 'target'=>'_blank'],
+   // 'quotes' => ['href'=>'https://app.vanguardassurance.com/', 'target'=>'_blank'],
     'claims' => ['href' => "https://vanguardassurance.com/client-portal", 'target'=>'_blank'],
 
     'about_us' => ['children'=>[
