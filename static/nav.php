@@ -1,9 +1,4 @@
 <?php
-if($controller == 'index' && $view == 'index'){
-    $productsLink = '#products';
-}else{
-   $productsLink =_link('products');
-}
 
 $navLinks = [
     'home'=>['href'=>  WEB_URL],
@@ -15,7 +10,7 @@ $navLinks = [
       //      'FAQ' => ['href'=> '#']
             ],
          'internal_link' => false,
-         'href' => $productsLink,
+         'href' => _link('products'),
     ],
     /*'corporate' =>['href' => [ 
             
@@ -32,16 +27,23 @@ $navLinks = [
         'our_team'=>[ 'href'=>_link('team#board','')],
         ],
     ],
-    'contact_us' => ['href'=>_link('contact-us','')],    
-
-    
+    'contact_us' => ['href'=>_link('contact-us','')],        
 ];
+
+$buttonLinks = [
+    'buy_insurance' =>[
+        'href' => "https://app.vanguardassurance.com/", 'target'=>'_blank', 'button'=>true, 'label'=>'', 'target'=> '_blank'  
+    ], 
+];
+
 
 $topLinks = [
-    'about_us' => ['href'=>_link('about-us','')],
-    'contact_us' => ['href'=>_link('contact-us','')],    
+    'about_us' => ['href'=>'about-us'],
+    'contact_us' => ['href'=>'contact-us'],    
 ];
 
+
+//Social media Links - top of navbar
 $data['socialMediaLinks'] = [
     ['href'=>LINKEDIN, 'icon'=>'fab fa-linkedin', 'title'=>'linkedin'],
     ['href'=>FACEBOOK, 'icon'=>'fab fa-facebook', 'title'=>'facebook'],

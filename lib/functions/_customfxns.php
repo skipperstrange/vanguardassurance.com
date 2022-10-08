@@ -34,7 +34,13 @@ function generateNavigation($navArray){
                     $navLinks .= "href='#' ";
                     }
             }
-           $navLinks.= "class='dropdown-item dropdown-toggle'>". format_string($label) ."</a>";
+            if(isset($navArray[$label]['label'])){
+                $linkLabel = $navArray[$label]['label'];
+            }
+            else{
+                $linkLabel = $label;
+            }
+           $navLinks.= "class='dropdown-item dropdown-toggle'>". format_string($linkLabel) ."</a>";
            $navLinks .= "<ul class='dropdown-menu'>";
 
            foreach($navArray[$label]['children'] as $label => $link){
@@ -57,7 +63,37 @@ function generateNavigation($navArray){
            }
     }
     return $navLinks;
-}    
+} 
+
+function generateButtonsNavigation($buttonLinksArray){
+    $buttonClass = '';
+    $buttonLinkString = '';
+    foreach($buttonLinksArray as $label => $link){
+        if($buttonLinksArray[$label]['button'] == true){
+            $buttonClass = 'btn btn-info';
+        }elseif($buttonLinksArray[$label]['button'] == false){
+            $buttonClass = '';
+        }
+
+        if(isset($link['target'])){
+            $targetOption = " target='$link[target]'";
+        }
+
+
+        if(isset($link['label']) && trim($link['label']) != ''){
+            $linkLabel = $link['label'];
+        }else{
+            $linkLabel = $label;
+        }
+
+        $buttonLinks .= "
+        <a href=\"$link[href]\" class=\"$buttonClass mx-1\" $targetOption>
+        " .format_string($linkLabel) ."
+        </a>
+        ";
+    }
+    return $buttonLinks;
+} 
     
 /*******************************************************************************************88
 *Function that comverts strings t to acsii.
