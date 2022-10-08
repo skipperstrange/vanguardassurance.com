@@ -308,7 +308,7 @@
 
 							</li>
 							<li data-transition="fade" class=" overlay-show overlay-color-primary">
-								<img src="<?=IMAGES_URL.'vbg-fade.jpg'?>"  
+								<img src="<?=IMAGES_URL.'office-faded-1-deep.jpg'?>"  
 									alt=""
 									data-bgposition="center center" 
 									data-bgfit="cover" 
@@ -342,7 +342,7 @@
 									data-basealign="slide"></div>
 
 
-								<h1 class="tp-caption font-weight-extra-bold text-color-dark line ws-normal"
+								<h1 class="tp-caption font-weight-extra-bold text-color-light line ws-normal"
 									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['-85','-85','-85','-85']"
@@ -352,7 +352,7 @@
 									data-textAlign="['left','left','left','center']">STAY AHEAD OF THE CURVE.</h1>
 
 
-								<div class="tp-caption font-weight-light text-color-dark opacity-7 ws-normal"
+								<div class="tp-caption font-weight-light text-color-light opacity-7 ws-normal"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 									data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['0','0','0','0']"
