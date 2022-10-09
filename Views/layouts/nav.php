@@ -1,6 +1,5 @@
 <?php
 include_once STATIC_DATA.'nav.php';
-
 ?>
 <header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
 				<div class="header-body border-top-0">
@@ -23,9 +22,7 @@ include_once STATIC_DATA.'nav.php';
 										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-                                                    <?php 
-                                                    echo generateNavigation($navLinks);
-                                                    ?>
+                                                    <?=echo generateNavigation($navLinks);?>
 												</ul>
 												
 											</nav>
@@ -54,4 +51,3 @@ include_once STATIC_DATA.'nav.php';
 				</div>
 			</header>
 
-			
