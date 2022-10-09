@@ -43,6 +43,27 @@ $data['board'] = [
     ],
     [
         'title'=>"Board Member",
+        'name'=>"Eric Otoo",
+        'info'=>"Eric brings a wealth of experience in investment banking, consulting, commercial operations and private equity, having worked with Goldman Sachs, Mckinsey & Co., Diageo and Duet, among others. His experience in finance was honed at Goldman Sachs & Co.’s New York City office from 2007, where his responsibilities included coordinating and managing origination, valuation, acquisition and due diligence for investment transactions.
+
+        In 2006 and later between 2010 and 2013, he worked as a strategy consultant at McKinsey’s New York City office, where he worked with senior Executives and Boards across different industries on various strategic, finance and operational issues. His work involved transformation programs at some of the major US banks and the broader financial services sector. He was recently a Director at Duet Private Equity where he managed companies in the firm’s investment portfolio with additional duties, including finding new investment opportunities. Eric started his consulting career in 2001 as an actuary at Towers Watson before his careers at Analysis Group and Treacy & Co., all in the USA.
+        
+        He is currently the Managing Director of Ghana Amalgamated Trust (GAT) where he implemented and led a program to recapitalize some indigenous banks and currently supports their business transformation to improve governance, management capabilities and performance in order to create value.
+        
+        Eric holds a Master of Business Administration (MBA) from Harvard Business School with second year honours as a Jack Kent Cooke Scholar. He received his certification as a Chartered Financial Analyst (CFA) in 2005, and as a Certified Management Accountant (CMA) and a Certified Financial Manager (CFM) in 2004. Eric attended Grinnell College in the US, for his undergraduate studies where he received majors in Economics and Computer Science with Phi Beta Kappa honors.
+        
+        Eric serves on the Boards of Directors of other companies including appsNmobile Solutions Limited and Tesah Capital Limited",
+        'img' => $imagesFolder.'EricOtoo.jpg',
+        'enabled'=> true,
+        'tags'=>["board"],
+        'contact_media'=>[
+            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
+            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
+             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
+        ]
+    ],
+    [
+        'title'=>"Board Member",
         'name'=>"Richard Hardy",
         'info'=>"Mr. Hardy holds an MBA from the University of Cape Town’s Graduate School of Business and a BCom (Actuarial Science) from the University of Stellenbosch.
 
@@ -86,27 +107,6 @@ $data['board'] = [
         'info'=>"
         ",
         'img' => $imagesFolder.'NanaAApiah.jpg',
-        'enabled'=> true,
-        'tags'=>["board"],
-        'contact_media'=>[
-            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
-            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
-             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
-        ]
-    ],
-    [
-        'title'=>"Board Member",
-        'name'=>"Eric Otoo",
-        'info'=>"Eric brings a wealth of experience in investment banking, consulting, commercial operations and private equity, having worked with Goldman Sachs, Mckinsey & Co., Diageo and Duet, among others. His experience in finance was honed at Goldman Sachs & Co.’s New York City office from 2007, where his responsibilities included coordinating and managing origination, valuation, acquisition and due diligence for investment transactions.
-
-        In 2006 and later between 2010 and 2013, he worked as a strategy consultant at McKinsey’s New York City office, where he worked with senior Executives and Boards across different industries on various strategic, finance and operational issues. His work involved transformation programs at some of the major US banks and the broader financial services sector. He was recently a Director at Duet Private Equity where he managed companies in the firm’s investment portfolio with additional duties, including finding new investment opportunities. Eric started his consulting career in 2001 as an actuary at Towers Watson before his careers at Analysis Group and Treacy & Co., all in the USA.
-        
-        He is currently the Managing Director of Ghana Amalgamated Trust (GAT) where he implemented and led a program to recapitalize some indigenous banks and currently supports their business transformation to improve governance, management capabilities and performance in order to create value.
-        
-        Eric holds a Master of Business Administration (MBA) from Harvard Business School with second year honours as a Jack Kent Cooke Scholar. He received his certification as a Chartered Financial Analyst (CFA) in 2005, and as a Certified Management Accountant (CMA) and a Certified Financial Manager (CFM) in 2004. Eric attended Grinnell College in the US, for his undergraduate studies where he received majors in Economics and Computer Science with Phi Beta Kappa honors.
-        
-        Eric serves on the Boards of Directors of other companies including appsNmobile Solutions Limited and Tesah Capital Limited",
-        'img' => $imagesFolder.'EricOtoo.jpg',
         'enabled'=> true,
         'tags'=>["board"],
         'contact_media'=>[

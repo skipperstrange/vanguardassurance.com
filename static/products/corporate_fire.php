@@ -1,7 +1,10 @@
+
+<div>
 <strong>
 Our Fire and Allied Perils policy is one of the most popular fire insurance policies in the country
 and provides a range of standardized products from which to choose from.
 </strong> 
+</div>
 
 <div>
     <h4>

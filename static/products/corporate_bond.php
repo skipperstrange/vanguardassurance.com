@@ -1,7 +1,8 @@
 
-    <strong>Bonds are usually a contract between three parties – the Contractor, Guarantor and the Principal.</strong>
+<div>
+<strong>Bonds are usually a contract between three parties – the Contractor, Guarantor and the Principal.</strong>
     with the guarantor providing the guarantee that the principal who engages the services of any Contractor will be indemnified in the event of default in delivering of services as expected. At Vanguard Assurance, we serve as Guarantors to provide all kinds of Bonds to enable you transact your business in peace and tranquility. Some of these Bonds include:
-
+</div>
 <div class="">
     <h4 class="">General Bonds</h4>
     <ol>

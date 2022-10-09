@@ -372,7 +372,7 @@
 									data-paddingleft="['30','30','30','30']"
 									data-paddingright="['15','15','15','15']"
 									data-fontsize="['13','13','13','18']"
-									data-lineheight="['20','20','20','22']">GET a Quote <i class="fas fa-arrow-right ml-4 pl-1 mr-2 text-4"></i></a>
+									data-lineheight="['20','20','20','22']">GET a Quote <i class="fas fa-agirrow-right ml-4 pl-1 mr-2 text-4"></i></a>
 
 							</li>
 

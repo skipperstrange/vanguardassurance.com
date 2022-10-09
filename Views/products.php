@@ -1,6 +1,6 @@
 <?php
 //include_once PARTIALS.'sub-header.php';
-include PARTIALS.'sub-header.php';
+include PARTIALS.'header-jumbo.php';
 $active_index = 'personal_lines';
 $active = '';
 ?>
