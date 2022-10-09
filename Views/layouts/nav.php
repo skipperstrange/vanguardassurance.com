@@ -31,19 +31,11 @@ include_once STATIC_DATA.'nav.php';
 											<i class="fas fa-bars"></i>
 										</button>
 									</div>
-									<?php
-										if(count($buttonLinks) > 0){
-											?>
 										<div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2 mr-2 mr-lg-0">
 										<div class="header-nav-feature header-nav-features-cart d-inline-flex ml-2 text-uppercase">
 											<?=generateButtonsNavigation($buttonLinks)?>
 										</div>
 									</div>
-											<?
-										}
-									?>
-									
-									
 								</div>
 							</div>
 						</div>
