@@ -22,7 +22,7 @@ include_once STATIC_DATA.'nav.php';
 										<div class="header-nav-main header-nav-main-square header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-                                                    <?=echo generateNavigation($navLinks);?>
+                                                    <?= generateNavigation($navLinks);?>
 												</ul>
 												
 											</nav>
