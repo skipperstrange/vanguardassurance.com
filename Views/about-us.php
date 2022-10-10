@@ -30,7 +30,7 @@ include PARTIALS.'header-jumbo.php';
 										</h1>
 									</div>
 									<div class="overflow-hidden mb-3">
-										<p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">
+										<p class="lead mb-0 appear-animation text-justify" data-appear-animation="maskUp" data-appear-animation-delay="200">
                                         Vanguard Assurance Company Limited began operations in October <span class="alternative-font">1974</span> as a composite insurance company
                                         and has the enviable record of being the first private indigenous insurance company in Ghana.At inception, Vanguard offered only two classes of business – Life and Fire. Over the years, the company diversified its product portfolio into one-stop composite insurance company underwriting all the major classes of Life and Non-Life insurance.
 
@@ -48,6 +48,9 @@ include PARTIALS.'header-jumbo.php';
 									<ul class="list list-icons list-icons-style-3">
 										<li><i class="fas fa-check"></i> To offer financial security through innovative insurance solutions that delight our customers.</li>
 										
+								</div>
+								<div class="col-md-6 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="600">
+								<img src="<?=IMAGES_URL?>generic-1.jpg" class="img-fluid position-relative appear-animation mb-2" data-appear-animation="expandIn" data-appear-animation-delay="600" alt="" />
 								</div>
 								<div class="col-md-4 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="600">
 									<h3 class="font-weight-bold text-4 mb-2">Our Vision</h3><ul class="list list-icons list-icons-style-3">

@@ -13,7 +13,6 @@ include_once PARTIALS.'sub-header.php';
 </div>
 
 <div class="container">
-
     <div class="row py-4">
         <div class="col-lg-6">
 

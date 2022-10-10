@@ -274,6 +274,21 @@ $data['board'] = [
         ]
     ],
     [
+        'title'=>"Head, Claims",
+        'name'=>"Lily Baah-Nuako",
+        'info'=>"Lily is Chartered Insurer and Associate of the Chartered Insurance Institute, UK with 19 years of experience in the Insurance Industry. Joined Vanguard in 2002 as a Marketing Officer and took
+         other role as Underwriter, Claims Officer, Branch Manager and rose through the ranks to my current position as the Head of Claims,
+        Holds MBA from KNUST and BA in Psychology from the University of Ghana.",
+        'img' => $imagesFolder.'lilly.jpg',
+        'enabled'=> true,
+        'tags'=>["management"],
+        'contact_media'=>[
+            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
+            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
+             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
+        ]
+    ],
+    [
         'title'=>"Group Office",
         'name'=>"Doreen Khulor",
         'info'=>"Doreen joined Vanguard Assurance in 1995 and is currently responsible for managing the Group Office’s administrative functions.
@@ -290,8 +305,12 @@ $data['board'] = [
     ],
     [
         'title'=>"Head, Compliance",
-        'name'=>"Leonard Torsu",
-        'info'=>"",
+        'name'=>"Leonard Torso",
+        'info'=>"A conscientious, resourceful and confident finance professional focused on improving department productivity and streamlining processes for efficiency.
+        Leo has been involved in establishing, developing and maintaining sound working relations with customers including managing customer accounts by ensuring that all issues and queries are dealt with promptly, resolved quickly and efficiently ensuring no payments are delayed.
+        He is a member of the Association of Chartered Certified Accountants (ACCA) and also holds a BBA Accounting degree from the Valley View University.
+        Prior to joining Vanguard Assurance in September 2005, he worked as a Finance Officer with Degoull Limited and an Audit Assistant with Messrs E.O. Mensah & Co (Chartered Accountants).
+        He is currently the Head of Compliance Department.",
         'img' => $imagesFolder.'Leonard.jpg',
         'enabled'=> true,
         'tags'=>["management"],
@@ -303,8 +322,10 @@ $data['board'] = [
     ],
     [
         'title'=>"Head, HR",
-        'name'=>"Love A Aboagye",
-        'info'=>"",
+        'name'=>"Love Ayisibea. Aboagye",
+        'info'=>"Love is a well-organized, dedicated and diplomatic individual with a proven ability to improve working conditions and a commitment to employee welfare. She is attentive to employee concerns and acts with the highest discretion and integrity when dealing with confidential information.
+        Love has a Master of Business Administration in Human Resources Management from the Ghana Business School and has worked in the human resources field for over ten (10) years. She holds an LLB degree in law from Mountcrest University College and is an Associate member of the Chartered Institute of Human Resources Management.
+        Prior to joining the Vanguard team, she was the Human Resources Manager at PHI Century Ltd., Central Logistics Construction Company and Dwadifo Adanfo Ltd where she was instrumental in the development of several HR Policies aimed at improving employee development and performance. She is a driven individual who thrives on collaborating with a diverse group of individuals to achieve success.",
         'img' => $imagesFolder.'Love1.jpg',
         'enabled'=> true,
         'tags'=>["management"],
@@ -316,8 +337,10 @@ $data['board'] = [
     ],
     [
         'title'=>"Head, Broker",
-        'name'=>"Lois Somaila",
-        'info'=>"",
+        'name'=>"Lois Somaila Debrah",
+        'info'=>"Lois Debrah is a Chartered Insurer and an Associate member of the Chartered Insurance Institute, (ACII) United Kingdom. She is also a member of the Chartered Insurance Institute of Ghana (CIIG) and has over fourteen (14) years’ experiences in the Insurance Industry.
+        In addition, she holds an MBA in Marketing and a BSc Admin, Insurance Option from the University of Ghana Business School.
+        Having worked with Vanguard Assurance since 2007 in various capacities, by dint of hard work and diligence, she is currently serving as the Head of the Broker Department.",
         'img' => $imagesFolder.'Lois1.jpg',
         'enabled'=> true,
         'tags'=>["management"],
@@ -329,8 +352,11 @@ $data['board'] = [
     ],
     [
         'title'=>"Head, Corporate",
-        'name'=>"Enos Agyapong",
-        'info'=>"",
+        'name'=>"Enos Stephen Agyapong",
+        'info'=>"Enos is the Head of Corporate Distribution at Vanguard Assurance. He has over twelve years of extensive experience in sales, marketing, and communication, with seven of those years being in the insurance industry, both life and non-life.
+        He worked at Starlife Assurance as Sales Manager and Branch Manager before he was moved to the head office as a Senior Relationship officer at the Corporate Department, where he was very instrumental in bringing on board the bancassurance partnership between Starlife Assurance, FBN Bank, and Bond Savings and Loans.
+        Enos Started his carrier with TV3 network as broadcast journalist until 2009 before joining EDC as Head of Sales and marketing for Kiddifund Mutual fund and joined Starlife Assurance in 2014 until he left in 2020 to Vanguard Assurance as Head of Corporate Distribution.
+        He holds B.A degree in Psychology and M.A in Marketing Strategy from the University of Ghana and has benefitted from numerous training Programs and courses in the insurance industry.",
         'img' => $imagesFolder.'Enos.jpg',
         'enabled'=> true,
         'tags'=>["management"],
@@ -343,7 +369,13 @@ $data['board'] = [
     [
         'title'=>"Head, Audit",
         'name'=>"Victor Annor Blay",
-        'info'=>"",
+        'info'=>"Victor is a chartered accountant and began his career in auditing as an external auditor. On this role, he reviewed the internal controls and risk management frameworks of entities spanning several industries: manufacturing, pensions, public sector, banking, fund management, among others. Through those engagements as an external auditor, he gained extensive experience in setting adequate controls, evaluating the sufficiency of controls, and measuring the adherence to controls.
+
+        He then transitioned into internal auditing by joining the Vanguard team. He joined as an internal audit executive and has risen through the ranks to the position of head of internal audit. Victor’s focus as the head of internal audit is to assist management to strengthen controls and provide up-to-speed assurance on the level of adequacy and adherence to controls.
+        
+        Victor is passionate about Governance, Risk, and Compliance (GRC). He views those three activities as the bedrock of sustainable businesses.
+        
+        On a personal level, he is an advocate for exercising due care in the discharge of functions, supporting team objectives, and achieving quality work.",
         'img' => $imagesFolder.'Victor.jpg',
         'enabled'=> true,
         'tags'=>["management"],

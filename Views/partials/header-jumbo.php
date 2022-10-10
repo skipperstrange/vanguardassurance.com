@@ -1,5 +1,5 @@
 
-<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7" 
+<section class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-3" 
 style="background-image: url(<?= $headerBackground ?>); background-repeat:no-repeat; background-attachment: fixed; background-size:fit; background-position:top;">
         <div class="container">
             <div class="row mt-0">

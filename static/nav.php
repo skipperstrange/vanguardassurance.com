@@ -3,12 +3,13 @@
 $navLinks = [
     'home'=>['href'=>  WEB_URL],
     
-    'products' =>['children' => [ 
+    'products' =>[
+      //  'children' => [ 
       //     'new fire claim' => ['href' => _link('fire-claim','fire-claim')],
-           'personal_insurance' => ['href' => _link('products#_personal_lines'),],
-           'corporate' => ['href' => _link('products#_corporate'),],
+      //     'personal_insurance' => ['href' => _link('products#_personal_lines'),],
+      //     'corporate' => ['href' => _link('products#_corporate'),],
       //      'FAQ' => ['href'=> '#']
-            ],
+      //      ],
          'internal_link' => false,
          'href' => _link('products'),
     ],

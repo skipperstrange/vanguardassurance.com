@@ -28,7 +28,7 @@ include PARTIALS.'header-jumbo.php';
                 endif;
             endforeach;
 ?>      
-            <div class="col-12 col-sm-6 col-md-3 isotope-item <?= implode($member['tags']) ?>">
+            <div class="col-12 col-sm-6 col-md-4  col-lg-3 isotope-item <?= implode($member['tags']) ?>">
                 <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                     <span class="thumb-info-wrapper">
                         <a href="#"  data-toggle="modal" data-target="#member_<?= $index ?>">
