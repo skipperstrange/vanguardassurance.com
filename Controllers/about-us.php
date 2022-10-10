@@ -1,9 +1,9 @@
 <?php
 include_once STATIC_DATA.'board.php';
-$subHeaderTitle = '<h1>Our <strong>Story</strong></h1>';
-$jumboTitle = '<h1>Our <strong>Story</strong></h1>';
-$jumboDescription = 'The perfect choice for you next cover.';
+$headerTitle = '<h1>Our <strong>Story</strong></h1>';
+$headerDescription = 'The perfect choice for you next cover.';
 $pageTitle = 'About Us';
+$headerBackground = IMAGES_URL.'about-1.jpg' ;
 $team = $data['board'];
 
 $ourTeam = [];
