@@ -1,5 +1,8 @@
 <?php
 include_once STATIC_DATA.'board.php';
+include_once STATIC_DATA.'affiliates.php';
+$affiliates = $data['affiliates'];
+
 $headerTitle = '<h1>Our <strong>Story</strong></h1>';
 $headerDescription = 'The perfect choice for you next cover.';
 $pageTitle = 'About Us';

@@ -11,6 +11,8 @@
     <?= generate_tag_group('script',$js) ?>
 
     <?= create_tag_element('title','',$pageTitle) ?>
+    <?= create_tag_element('link', ["rel"=>"shortcut icon", "href"=>"./favicon.png"],'', false) ?>
+    <?= create_tag_element('link', ["rel"=>"apple-touch-icon", "href"=>"./apple-touch-icon.png"],'', false) ?>
 </head>
 
 <body <?php if($view == 'index'): ?>class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}" <?php endif; ?>>

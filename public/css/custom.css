@@ -23,6 +23,30 @@ body{
 	color: #444;
 }
 
+.bg-position-center{
+	background-position: center center !important;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+.col-half-section.col-half-section-right {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.col-half-section {
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    max-width: 555px;
+    margin-left: 30px;
+    margin-right: 0;
+}
+
 .thumb-info .thumb-info-title {
 
     font-size: 15px;
