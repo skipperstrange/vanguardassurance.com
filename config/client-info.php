@@ -5,7 +5,7 @@ define('WEBSITE', 'https://www.vanguardassurance.com');
 define('ADDRESS', '');
 define('STREET_ADDRESS', '25 Independence Avenue, Ridge-Accra');
 define('SLOGAN', '');
-define('SUPPORT_EMAIL', 'vac@vanguardassurance.com');
+define('SUPPORT_EMAIL', 'vacmails@vanguardassurance.com');
 define('SUPPORT_CONTACT_1', '+233 244 334 407');
 define('SUPPORT_CONTACT_1_CLEAN', '233244334407');
 define('SUPPORT_CONTACT_2', '+233 302 213 940');

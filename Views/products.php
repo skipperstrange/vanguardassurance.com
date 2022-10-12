@@ -37,7 +37,11 @@ $active = '';
             <div class="tab-pane text-2 <?= $active?>" id="_<?=$index?>">
 
                 <div class="container py-2">
-                <h1><?=format_string($index)?></h1>
+                <h1 class="text-primary">
+                    <strong>
+                    <?=format_string($index)?>
+                    </strong>
+                </h1>
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
