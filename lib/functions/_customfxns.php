@@ -70,7 +70,7 @@ function generateButtonsNavigation($buttonLinksArray){
     $buttonLinkString = '';
     foreach($buttonLinksArray as $label => $link){
         if($buttonLinksArray[$label]['button'] == true){
-            $buttonClass = 'btn btn-info';
+            $buttonClass = 'btn btn-primary';
         }elseif($buttonLinksArray[$label]['button'] == false){
             $buttonClass = '';
         }

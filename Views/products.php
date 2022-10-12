@@ -5,24 +5,28 @@ $active_index = 'personal_lines';
 $active = '';
 ?>
 <div class="col">
-    <div class="tabs tabs-bottom tabs-center tabs-simple">
-    <ul class="nav nav-tabs">
-                <?php foreach($products as $index => $product){
-                    if($active_index == $index){
-                        $active = 'active';
-                    }else{
-                        $active = '';
-                    }
+        <div class="tabs tabs-bottom tabs-center tabs-simple">
+            <ul class="nav nav-tabs">
+                    <?php foreach($products as $index => $product){
+                        if($active_index == $index){
+                            $active = 'active';
+                        }else{
+                            $active = '';
+                        }
 
-            ?>
-                <li class="nav-item <?= $active; ?>">
-                    <a class="nav-link text-2 text-uppercase " style="font-weight:700;" href="#_<?= $index?>" data-toggle="tab"><?=format_string($index) ?></a>
-                </li>
-            <?php
-                } ?>
-                
-            </ul>
-        <div class="tab-content">
+                ?>
+                    <li class="nav-item <?= $active; ?>">
+                        <a class="nav-link text-2 text-uppercase " style="font-weight:700;" href="#_<?= $index?>" data-toggle="tab"><?=format_string($index) ?></a>
+                    </li>
+                <?php
+                    } ?>
+                    
+                </ul>
+        </div> 
+</div>
+            
+<div class="container">
+        <div class="tab-content" style="border:none; box-shadow:none;">
         <?php foreach($products as $index => $product){
                     if($active_index == $index){
                         $active = 'active';

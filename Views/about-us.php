@@ -18,20 +18,21 @@ include PARTIALS.'header-jumbo.php';
             </div>
         </div>
         <div class="row pt-2 mt-4">
-            <div class="col-lg-3">
-                <aside class="sidebar" id="sidebar" data-plugin-sticky data-plugin-options="{'minWidth': 991, 'containerSelector': '.container', 'padding': {'top': 110}}">
+            <div class="col-lg-4">
+                <aside class="sidebar tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple" id="sidebar" data-plugin-sticky data-plugin-options="{'minWidth': 991, 'containerSelector': '.container', 'padding': {'top': 110}}">
 
-                    <ul class="nav nav-list flex-column mb-4 show-bg-active">
+                    <ul class="nav nav-list flex-column mb-4 show-bg-active text-4">
                         <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#who-we-are">Who We Are</a></li>
                         <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#history">History</a></li>
                         <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#mission-vision">Mission &amp; Vision</a></li>
+                        <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#mission-vision">Values</a></li>
                         <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#achievements">Achievements</a></li>
                         <li class="nav-item"><a class="nav-link" data-hash data-hash-offset="110" href="#partners">Partners</a></li>
                     </ul>
 
                 </aside>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-8">
 
                 <section id="who-we-are" class="mt-4">
                     <h2 class="mb-0 text-color-dark">Who We Are</h2>
@@ -89,6 +90,36 @@ include PARTIALS.'header-jumbo.php';
                                 <div class="feature-box-info">
                                     <h2 class="mb-3 text-color-dark">Vision</h2>
                                     <p class="mb-4">Our vision is to be the default houshold Insurer fulfilling our customer needs and aspirations</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <hr class="solid my-5">
+
+                <section id="values" class="mb-4">
+
+                    <div class="row mt-4">
+                        <div class="col-sm-12 text-center">
+                            <div class="feature-box feature-box-style-4 justify-content-center mt-4 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="0">
+                                <span class="featured-boxes featured-boxes-style-4 p-0 m-0">
+                                    <span class="featured-box featured-box-primary featured-box-effect-6 p-0 m-0">
+                                        <span class="box-content p-0 m-0">
+                                            <i class="icon-featured icon-badge icons"></i>
+                                        </span>
+                                    </span>
+                                </span>	
+                                <div class="feature-box-info">
+                                    <h2 class="mb-3">Values</h2>
+									<ul class="list list-icons list-icons-style-3">
+                                        <li>We believe the customer is always right</li>
+                                        <li>We esteem integrity and honesty</li>
+                                        <li>We esteem integrity and honesty</li>
+                                        <li>We reward productivity and innovation</li>
+                                        <li>We are one family</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
