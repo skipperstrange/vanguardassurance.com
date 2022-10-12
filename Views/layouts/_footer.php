@@ -4,36 +4,8 @@
 					<div class="footer-ribbon">
 						<span>Get in Touch</span>
 					</div>
-					<div class="row py-5 my-4">
-						<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">NEWSLETTER</h5>
-							<p class="pr-1">Keep up on our always evolving product features and technology. Enter your e-mail address and subscribe to our newsletter.</p>
-							<div class="alert alert-success d-none" id="newsletterSuccess">
-								<strong>Success!</strong> You've been added to our email list.
-							</div>
-							<div class="alert alert-danger d-none" id="newsletterError"></div>
-							<form id="newsletterForm" action="php/newsletter-subscribe.php" method="POST" class="mr-4 mb-3 mb-md-0">
-								<div class="input-group input-group-rounded">
-									<input class="form-control form-control-sm bg-light" placeholder="Email Address" name="newsletterEmail" id="newsletterEmail" type="text">
-									<span class="input-group-append">
-										<button class="btn btn-light text-color-dark" type="submit"><strong>GO!</strong></button>
-									</span>
-								</div>
-							</form>
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
-							<h5 class="text-3 mb-3">LATEST TWEETS</h5>
-							<!--div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'VanguardGH', 'count': 2}">
-								<p>Please wait...</p>
-							</!--div>
-                            <!--div id="tweets" class="text-1">
-                            <a class="twitter-timeline" data-dnt="true" data-theme="dark" data-chrome="noscrollbar" data-height="200" href="<?= TWITTER ?>" data-widget-id="628348263834456064">Tweets by @<?= CLIENT_NAME ?></a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                           
-                            </!--div-->
-                            
-						</div>
-						<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+					<div class="row py-3 pb-0 my-4">
+					<div class="col-md-6 col-lg-3 mb-4 mb-md-0 mb-5">
 							<div class="contact-details">
 								<h5 class="text-3 mb-3">CONTACT US</h5>
 								<ul class="list list-icons list-icons-lg">
@@ -44,11 +16,14 @@
 								</ul>
 							</div>
 						</div>
-						<div class="col-md-6 col-lg-2">
+						
+						<div class="col-md-6 col-lg-2 mb-5">
 							<h5 class="text-3 mb-3">FOLLOW US</h5>
-							<ul class="social-icons">
-                <?php            
-                foreach ($data['socialMediaLinks'] as $socialMediaLink) {
+							<p class="pr-1">Follow us to for more activitities aon our social media handles.</p>
+
+							<ul class="social-icons text-center text-sm-left">
+									<?php            
+									foreach ($data['socialMediaLinks'] as $socialMediaLink) {
 
                                     ?>
                                     <li class="social-icons-<?= $socialMediaLink['title']?>"><a href="<?= $socialMediaLink['href'] ?>" target="_blank" title="<?= format_string($socialMediaLink['title']) ?>"><i class="<?= $socialMediaLink['icon']?>"></i></a></li>
@@ -57,11 +32,46 @@
                                     ?>
 								</ul>
 						</div>
+						<div class="col-md-6 col-lg-4 mb-5">
+							<h5 class="text-3 mb-3 text-uppercase">Available Now</h5>
+							<!--div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'VanguardGH', 'count': 2}">
+								<p>Please wait...</p>
+							</!--div>
+                            <!--div id="tweets" class="text-1">
+                            <a class="twitter-timeline" data-dnt="true" data-theme="dark" data-chrome="noscrollbar" data-height="200" href="<?= TWITTER ?>" data-widget-id="628348263834456064">Tweets by @<?= CLIENT_NAME ?></a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </!--div-->
+							<div>
+								<p class="pr-1">Keep up on our always evolving product features and technology. Download the app from the app store!</p>
+							</div>
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+										<a href="<?=PLAYSTORE_LINK?>" target="_blank" class="link-block-3 w-inline-block"><img class="img-fluid" src="<?= IMAGES_URL ?>play.webp" alt=""></a>	
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+										<a href="<?=APP_STORE_LINK ?>" target="_blank" class="link-block-4 w-inline-block"><img class="img-fluid" src="<?= IMAGES_URL ?>store.webp" alt=""></a>
+									</div>								
+								</div>								
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-3  mb-0">
+							<h5 class="text-3 mb-3 text-uppercase">Quick Links</h5>
+							<ul class="list list-icons list-icons-sm">
+								<?php 
+								foreach($navLinks as $label => $link): 
+									if(trim($navLinks[$label]['href']) != ''): ?>
+								<li><i class="fas fa-angle-right"></i><a href="<?=$navLinks[$label]['href']?>" class="link-hover-style-1 ml-1"> <?=ucfirst(format_string($label)) ?></a></li>
+								<?php 
+									endif;
+								endforeach; ?>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="footer-copyright">
 					<div class="container py-2">
-						<div class="row py-4">
+						<div class="row py-0">
 							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
 								<a href="index.html" class="logo pr-0 pr-lg-3">
                                     <?= create_tag_element('img', ['src'=>IMAGES_URL.'cropped-Vanguard-logo-simple.png', 'class'=>'opacity-8', 'alt'=>'', 'height'=>'40'], false); ?>
