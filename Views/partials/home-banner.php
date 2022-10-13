@@ -295,7 +295,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-success font-weight-bold rounded"
-									href="<?= whatsappUrl(WHATSAPP_CONTACT_1_CLEAN)?>"
+									href="<?= whatsappUrl(WHATSAPP_CONTACT_1_CLEAN)?>" target="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -364,7 +364,7 @@
 								</div>
 
 								<a class="tp-caption d-inline-flex align-items-center btn btn-primary font-weight-bold rounded"
-									href="https://app.vanguardassurance.com/"
+									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['170','170','70','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -437,7 +437,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
-									href="https://app.vanguardassurance.com/"
+									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -503,7 +503,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
-									href="https://app.vanguardassurance.com/"
+									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
