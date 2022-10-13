@@ -61,7 +61,7 @@
 								<?php 
 								foreach($navLinks as $label => $link): 
 									if(trim($navLinks[$label]['href']) != ''): ?>
-								<li><i class="fas fa-angle-right"></i><a href="<?=$navLinks[$label]['href']?>" class="link-hover-style-1 ml-1"> <?=ucfirst(format_string($label)) ?></a></li>
+								<li><i class="fas fa-angle-right"></i><a href="<?=$navLinks[$label]['href']?>" target="<?=$navLinks[$label]['target']?>" class="link-hover-style-1 ml-1"> <?=ucfirst(format_string($label)) ?></a></li>
 								<?php 
 									endif;
 								endforeach; ?>
@@ -78,13 +78,13 @@
 								</a>
 							</div>
 							<div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-								<p>© Copyright Vanguard <?= strtotime('%y',time()) ?> skipnet&copy; applications powered by Porto.</p>
+								<p><?= CLIENT_NAME ?> <?= strtotime('%y',time()) ?> </p>
 							</div>
 							<div class="col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-end">
 								<nav id="sub-menu">
 									<ul>
 										<li>
-                                            <?= create_tag_element('i', ['class'=>'fas fa-angle-right']).create_tag_element('a', ['class'=>'ml-1 text-decoration-none', 'href'=>_link('faq')], 'FAQ\'s') ?>
+                                          <!--  <?= create_tag_element('i', ['class'=>'fas fa-angle-right']).create_tag_element('a', ['class'=>'ml-1 text-decoration-none', 'href'=>_link('faq')], 'FAQ\'s') ?> -->
                                         </li>
 										<li>
                                             <?= create_tag_element('i', ['class'=>'fas fa-angle-right']).create_tag_element('a', ['class'=>'ml-1 text-decoration-none', 'href'=>_link('contact-us')], 'Contact us') ?>

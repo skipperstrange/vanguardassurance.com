@@ -3,9 +3,13 @@
 //Function that generates navigation layout
 function generateNavigation($navArray){
     $navLinks = '';
+    $activeClass = '';
     $dropdown = 'dropdown';
     $mega_content = '';
    
+    if(activeUrl() == activeUri()){
+        $activeClass = 'active';
+    }
     foreach($navArray as $label => $link){
 
         if(isset($link['target'])){
