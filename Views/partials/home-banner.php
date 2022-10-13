@@ -295,7 +295,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-success font-weight-bold rounded"
-									href="<?= whatsappUrl('0242426444')?>"
+									href="<?= whatsappUrl(WHATSAPP_CONTACT_1_CLEAN)?>"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -304,7 +304,7 @@
 									data-paddingleft="['30','30','30','30']"
 									data-paddingright="['15','15','15','15']"
 									data-fontsize="['13','13','13','18']"
-									data-lineheight="['20','20','20','22']"><i class="fab fa-whatsapp mr-2 text-5"></i> Get Started</a>
+									data-lineheight="['20','20','20','22']"><i class="fab fa-whatsapp mr-2 text-5"></i> <?= WHATSAPP_CONTACT_1_CLEAN ?></a>
 
 							</li>
 
@@ -364,7 +364,7 @@
 								</div>
 
 								<a class="tp-caption d-inline-flex align-items-center btn btn-primary font-weight-bold rounded"
-									href="#"
+									href="https://app.vanguardassurance.com/"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['170','170','70','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -437,7 +437,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
-									href="#"
+									href="https://app.vanguardassurance.com/"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
@@ -503,7 +503,7 @@
 
 
 								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
-									href="#"
+									href="https://app.vanguardassurance.com/"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['65','65','65','65']"

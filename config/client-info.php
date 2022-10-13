@@ -8,6 +8,7 @@ define('SLOGAN', '');
 define('SUPPORT_EMAIL', 'vacmails@vanguardassurance.com');
 define('SUPPORT_CONTACT_1', '+233 244 334 407');
 define('SUPPORT_CONTACT_1_CLEAN', '233244334407');
+define('WHATSAPP_CONTACT_1_CLEAN', '233242426444');
 define('SUPPORT_CONTACT_2', '+233 302 213 940');
 
 //SOCIAL MEDIA
