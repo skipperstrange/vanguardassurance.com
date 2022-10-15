@@ -88,6 +88,7 @@ $footerJs = [
     
     //Theme Initialization Files -->
     [ "src"=>JS_PATH."theme.init.js"],
+    [ "src"=>JS_PATH."axios.min.js"],
 
     //Examples -->
     //[ "src"=>JS_PATH."examples/examples.portfolio.js"]
