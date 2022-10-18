@@ -37,7 +37,7 @@ define('PORT', ':'.$_SERVER['SERVER_PORT']);
 //define('BASE_URL', 'http://'.$_SERVER['HTTP_HOST']).DS;
 //define('WEB_URL', 'http://'.$_SERVER['SERVER_NAME'].PORT.DS);
 // elseif (is_secure_connection() == 1):
-    
+
 define('BASE_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].DS);
 if(MODE === 'development'){
     define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].DS.APP.PORT.DS);
@@ -45,6 +45,9 @@ if(MODE === 'development'){
     define('WEB_URL', @$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].PORT.DS);
 }
 //endif;
+
+//Uses bitnami  wordpress image from virtual machine. Makes straight calls to the api endpoint
+define('CONTENT_SERVER', 'http://192.168.56.103/wp-json/wp/v2' . DS);
 
 define('LIB', 'lib' . DS);
 define('STATIC_DATA', 'static'.DS);

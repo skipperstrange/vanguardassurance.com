@@ -38,6 +38,7 @@
 								<hr>
 							</div>
 						</div>
+						
 						<div class="row align-items-center pb-5 pb-lg-0 mb-5 mb-lg-0">
 							<div class="col-lg-5 text-center text-lg-start appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
 								<img src="<?=IMAGES_URL ?>homeprehensive.png" class="img-fluid mb-4 mb-lg-0" alt="">
@@ -77,8 +78,10 @@
 				<?php
                     include PARTIALS.'products-few.php';
                     ?>
-
-				<section class="section bg-transparent position-relative border-0 m-0 p-0">
+					<!-- latest articles -->
+				<?php include PARTIALS.'recent_articles.php'; ?>
+				<!-- End latest article -->
+				<section class="section position-relative border-0 m-0 p-0">
 					<div class="container pt-5 pb-5-5 mt-4">
 						<div class="row">
 							<div class="col text-center">
@@ -104,10 +107,8 @@
 							</div>
 						</div>
 
-                        
-
 					</div>
-                    <?php include PARTIALS.'left-flair.php'?>		
+                    <?php include PARTIALS.'left-flair.php'?>	
 				</section>
 
 

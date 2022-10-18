@@ -28,6 +28,7 @@ $navLinks = [
         'our_team'=>[ 'href'=>_link('team#board','')],
         ],
     ],
+    'news' => ['href'=>_link('news','')],        
     'contact_us' => ['href'=>_link('contact-us','')],        
 ];
 

@@ -34,15 +34,9 @@
 						</div>
 						<div class="col-md-6 col-lg-4 mb-5">
 							<h5 class="text-3 mb-3 text-uppercase">Available Now</h5>
-							<!--div id="tweet" class="twitter" data-plugin-tweets data-plugin-options="{'username': 'VanguardGH', 'count': 2}">
-								<p>Please wait...</p>
-							</!--div>
-                            <!--div id="tweets" class="text-1">
-                            <a class="twitter-timeline" data-dnt="true" data-theme="dark" data-chrome="noscrollbar" data-height="200" href="<?= TWITTER ?>" data-widget-id="628348263834456064">Tweets by @<?= CLIENT_NAME ?></a>
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </!--div-->
+							
 							<div>
-								<p class="pr-1">Keep up on our always evolving product features and technology. Download the app from the app store!</p>
+								<p class="pr-1">Keep up on our ever evolving product features and technology. Download the app from the app store!</p>
 							</div>
 							<div class="container">
 								<div class="row">
@@ -101,6 +95,14 @@
 </div><!-- div.body end -->
 <?= generate_tag_group('script', $footerJs);?>
 
+<script>
+    $(".timeago").each(function(i,el){
+        var element = $(el);
+        // Change text of element to a human readable date with ago
+        // like 2 minutes, 2 hours
+        element.text(ago(element.attr("timestamp")));
+    });
+</script>
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

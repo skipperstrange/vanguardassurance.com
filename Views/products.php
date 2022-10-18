@@ -37,7 +37,7 @@ $active = '';
             <div class="tab-pane text-2 <?= $active?>" id="_<?=$index?>">
 
                 <div class="container py-2">
-                <h1 class="text-primary">
+                <h1 class="text-capitalize text-dark">
                     <strong>
                     <?=format_string($index)?>
                     </strong>

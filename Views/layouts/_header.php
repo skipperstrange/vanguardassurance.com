@@ -10,9 +10,21 @@
     <!-- javascript -->
     <?= generate_tag_group('script',$js) ?>
 
-    <?= create_tag_element('title','',$pageTitle) ?>
+    <?= create_tag_element('title','',_title($pageTitle)) ?>
     <?= create_tag_element('link', ["rel"=>"shortcut icon", "href"=>"./favicon.png"],'', false) ?>
-    <?= create_tag_element('link', ["rel"=>"apple-touch-icon", "href"=>"./apple-touch-icon.png"],'', false) ?>
+    <?= create_tag_element('link', ["rel"=>"apple-touch-icon", "href"=>"./favicon.png"],'', false) ?>
+
+    <!-- For tracking asyncronous activities N. B. Use either this or the one in footer for old method. Old method cannot track asyncronous activities.
+        Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+<script>
+     var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', '<?=GOOGLE_ANALYITICS_ID ?>']);
+  _gaq.push(['_trackPageview']);
+</script>
+ -->
+ <script>
+  var FQDN = '<?=WEB_URL?>';
+ </script>
 </head>
 
 <body <?php if($view == 'index'): ?>class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}" <?php endif; ?>>

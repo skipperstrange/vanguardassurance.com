@@ -19,5 +19,11 @@
         'name'=>'ghana_leasing_company',
         'title'=>'Ghana Leasing Company',
         'logo' =>''
+    ],
+
+    [
+        'name'=>'blue_orchard',
+        'title'=>'Blue Orchard',
+        'logo' =>'blue-orchard.png'
     ]
 ];

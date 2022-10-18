@@ -6,7 +6,7 @@ $metadata = [
     ['name'=>"keywords", 'content'=>"We stand by you, Vanguard Assurance"],
     ['name'=>"viewport", 'content'=>"width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"],
     ['name'=>"author", 'content'=>"skipperstrange@gmail.com"],
-    ['name'=>"description", 'content'=>"The no. 1 insurance company in ghana"],
+    ['name'=>"description", 'content'=>_meta("The no. 1 insurance company in ghana")],
 ];
 
 
@@ -89,6 +89,8 @@ $footerJs = [
     //Theme Initialization Files -->
     [ "src"=>JS_PATH."theme.init.js"],
     [ "src"=>JS_PATH."axios.min.js"],
+    [ "src"=>JS_PATH."moment.min.js"],
+    [ "src"=>JS_PATH."livestamp.js"],
 
     //Examples -->
     //[ "src"=>JS_PATH."examples/examples.portfolio.js"]

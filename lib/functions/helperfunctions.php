@@ -7,6 +7,14 @@ function _title(String $title = ''){
     }
 }
 
+function _meta(String $title = ''){
+    if(trim($title) == ''){
+        return APP_NAME;
+    }else{
+    return APP_NAME.' - '.$title;
+    }
+}
+
 function _link(String $controller = '', String $view = ''){
    
     $url = '';
@@ -23,15 +31,32 @@ function _link(String $controller = '', String $view = ''){
 
     if(PRETTY_URLS == true){
          $container = explode('&', $url);
+         
         foreach ($container as $value){
                  $parsed = explode('=', $value);
             $params[] =  $parsed[1];
         }
+        $params = array_unique($params);
         $url =implode('/', $params);
     }else{
         $url = '?'.$url;
     }
     return  WEB_URL.$url;
+}
+
+function _link_by_name($name, $args=[]){
+    if(isset($name) && trim($name)!==''){
+        $rouute = [];
+        $routes = ROUTES;
+        foreach($routes as $index => $value){
+            if(strtolower($routes[$index]['name'] == strtolower($name))){
+                $route = $routes[$index];
+                break;
+            }
+        }
+        return _link($route['controller'],$route['view']);
+    }
+    return false;
 }
 
 function redirect_to($controller = null, $view = null)
