@@ -1,9 +1,9 @@
-<div class="container py-4">
+<div class="container py-4 mb-6">
     <div class="row">
-        <div class="col-lg-3 order-lg-2">
+        <div class="col-lg-4 order-2">
             <?php include PARTIALS.'news-side-bar.php'?>
         </div>
-        <div class="col-lg-9 order-lg-1">
+        <div class="col-lg-8 order-1">
             <div class="blog-posts single-post">
             
                 <article class="post post-large blog-single-post border-0 m-0 p-0" id="post">

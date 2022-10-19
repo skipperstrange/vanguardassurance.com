@@ -23,7 +23,7 @@ function articlesTemplate(data, id_display='') {
 		for(i = 0, len = data.length; i < len; i++){
 			var media = null;
 			if(data[i].x_featured_media_large === undefined){
-				media = 'public/images/article.jpg'
+				media = FQDN+'public/images/article.jpg'
 			}else{
 				media = data[i].x_featured_media_large
 			}
@@ -64,7 +64,7 @@ function recentArticlesTemplate(data, id_display='') {
 	for(i = 0, len = data.length; i < len; i++){
 		var media = null;
 		if(data[i].x_featured_media_large === undefined){
-			media = 'public/images/article.jpg'
+			media = FQDN+'public/images/article.jpg'
 		}else{
 			media = data[i].x_featured_media_large
 		}
@@ -191,9 +191,10 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 	}else{
 		media = data.x_featured_media_large
 	}
-	var day = moment().format('Do', data.date)
-	var month = moment().format('MMM', data.date)
-	console.log(day, month)
+	var day = moment(data.date).format('Do')
+	var month = moment(data.date).format('MMM')
+	var year = moment(data.date).format('YYYY')
+	console.log(day, month, year)
 	return `
 	<div class="post-image ml-0" id="post-image">
 		<img src="${media}" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
@@ -202,6 +203,7 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 	<div class="post-date ml-0">
 		<span class="day text-primary" id="day">${day}</span>
 		<span class="month bg-primary" id="month">${month}</span>
+		<span class="month bg-secondary text-2" id="month">${year}</span>
 	</div>
 
 	<div class="post-content ml-0">
