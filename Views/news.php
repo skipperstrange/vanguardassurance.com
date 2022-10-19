@@ -16,11 +16,6 @@ include PARTIALS.'header-jumbo.php';
                     <div class="bounce2"></div>
                     <div class="bounce3"></div>
                 </div>
-            <ul class="blog-posts article" id="blog-posts"  style="list-style:none;">
-        
-            </ul>
-            <ul class="pagination float-right">
-            </ul>
             </div>
             <ul class="blog-posts article" id="blog-posts"  style="list-style:none;">
         
