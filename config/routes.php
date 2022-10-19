@@ -44,6 +44,13 @@ define("ROUTES", [
 ['url'=>'@^authors/(?P<id>\d+)/articles/$@', 'name'=>'users-news', 'controller'=>'users-news', 'view'=>'news'],
 ['url'=>'@^authors/(?P<id>\d+)/articles$@', 'name'=>'users-news', 'controller'=>'users-news', 'view'=>'news'],
 
+['url'=>'@^search/(?P<query>\w+)/$@', 'name'=>'search', 'controller'=>'search', 'view'=>'news'],
+['url'=>'@^search/(?P<query>\w+)$@', 'name'=>'search', 'controller'=>'search', 'view'=>'news'],
+
+
+['url'=>'@^search/$@', 'name'=>'search', 'controller'=>'search', 'view'=>'news'],
+['url'=>'@^search$@', 'name'=>'search', 'controller'=>'search', 'view'=>'news'],
+
 //#Passing parameters through route - (?P<parameter-name>\w)
 //['url'=>'@^products/(?P<id>\d+)/$@', 'name'=>'', 'controller'=>'admin', 'view'=>'admin/index'],
 //Strict for digits

@@ -1,14 +1,17 @@
 <?php
-//include_once PARTIALS.'sub-header.php';
-include PARTIALS.'header-jumbo.php';
+if($controller == 'search'){
+ include_once PARTIALS.'sub-header.php';
+}else{
+  include PARTIALS.'header-jumbo.php';
+}
 ?>
 
 <div class="container py-4">
     <div class="row">
-        <div class="col-lg-4 col-md-5 order-lg-2 order-sm-2 order-xs-2">
+        <div class="col-lg-4 col-md-5 order-lg-2 order-sm-2 order-xs-2 mt-5">
             <?php include PARTIALS.'news-side-bar.php'; ?>
         </div>
-        <div class="col-lg-8 col-md-7 order-lg-1 order-sm-1 order-xs-1 loading-overlay-showing"  id="loading-overlay" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
+        <div class="col-lg-8 col-md-7 order-lg-1 order-sm-1 order-xs-1 loading-overlay-showing mt-5"  id="loading-overlay" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 500}">
             
         <div class="loading-overlay">
                 <div class="bounce-loader">
