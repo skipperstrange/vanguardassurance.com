@@ -185,7 +185,6 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 
 
   function postTemplate(data){
-	console.log(data)
 	if(data.x_featured_media === undefined){
 		media = FQDN+'public/images/article.jpg'
 	}else{
@@ -194,7 +193,7 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 	var day = moment(data.date).format('Do')
 	var month = moment(data.date).format('MMM')
 	var year = moment(data.date).format('YYYY')
-	console.log(day, month, year)
+
 	return `
 	<div class="post-image ml-0" id="post-image">
 		<img src="${media}" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
@@ -211,12 +210,12 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 		<h2 class="font-weight-bold text-6" id="title">${data.title.rendered}</h2>
 
 		<div class="post-meta" id="post-meta">
-			<span><i class="far fa-user"></i> By <a href="#">${data.x_author}</a> </span>
+			<span><i class="far fa-user"></i> By <a href="${FQDN}authors/${data.author}">${data.x_author}</a> </span>
 			<span><i class="far fa-folder"></i> ${data.x_categories} </span>
 			<!--span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span-->
 		</div>
 
-		<p id="content">
+		<p id="conten my-5">
 		${data.content.rendered}
 		</p>
 
