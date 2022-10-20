@@ -1,4 +1,4 @@
-<div>
+
 <h4 class="mt-2 mb-0 py-0">Comprehensive</h4>
 It gives the widest cover including that given by each of the two mentioned above. It gives indemnity in respect of:
 
@@ -26,5 +26,3 @@ As the name implies, this policy insures the vehicle itself against:
 
 <h4 class="mt-2 mb-0 py-0">Third Party</h4>
 Covers the insured’s legal liability for injury to or death of third parties and damage to third party property such as vehicles, buildings, kiosks, traffic lights etc. It does not however extend to a passenger’s luggage, bags, wristwatches and other personal effects.
-
-</div>

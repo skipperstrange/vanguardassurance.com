@@ -19,6 +19,15 @@
     --pink: #f56680;
 }
 
+a.page-link:hover{
+	cursor: pointer;
+}
+
+a.page-link.jp-current:hover{
+	cursor: none;
+	color: white;
+}
+
 body{
 	color: #444;
 	background: #fdfdfd;

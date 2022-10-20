@@ -36,8 +36,8 @@ include PARTIALS.'header-jumbo.php';
 
                 <section id="who-we-are" class="mt-4">
                     <h2 class="mb-0 text-color-dark">Who We Are</h2>
-                    <p class="lead">Vanguard Assurance not only stands tall because of its passion for excellence in service delivery but also for prompt claims settlement.</p>
-                    <p class="pr-5 mr-5">
+                    <p class="lead text-justify">Vanguard Assurance not only stands tall because of its passion for excellence in service delivery but also for prompt claims settlement.</p>
+                    <p class=" text-justify">
                     Our claims payment ability coupled with excellent customer service has led us to win several laurels from reputable industry players including the Chartered Institute of Marketing Ghana, The Ghana Club 100 and the Insurance Brokers Association of Ghana.
                     </p>
                     </section>
@@ -49,7 +49,7 @@ include PARTIALS.'header-jumbo.php';
 
                     <div class="row">
                         <div class="col-md-12">
-                            <p class=" mb-1 mt-4">
+                            <p class=" mb-1 mt-4 text-justify">
                             Vanguard Assurance Company Limited began operations in October <strong>1974</strong> as a composite insurance company
                             and has the enviable record of being the first private indigenous insurance company in Ghana.At inception, Vanguard offered only two classes of business – Life and Fire. Over the years, the company diversified its product portfolio into one-stop composite insurance company underwriting all the major classes of Life and Non-Life insurance.
                             Today, Vanguard Assurance is a subsidiary of the Vanguard Group underwriting only non-life insurances.
@@ -74,7 +74,9 @@ include PARTIALS.'header-jumbo.php';
                                 </span>	
                                 <div class="feature-box-info">
                                     <h2 class="mb-3 text-color-dark">Mission</h2>
-                                    <p class="mb-4">We will alwasys aspire to offer financial security through innovative insurance solutions that delight our customers.</p>
+                                    <p class="mb-4">
+                                    To offer financial security through innovative insurance solutions that delight our customers.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -89,7 +91,9 @@ include PARTIALS.'header-jumbo.php';
                                 </span>	
                                 <div class="feature-box-info">
                                     <h2 class="mb-3 text-color-dark">Vision</h2>
-                                    <p class="mb-4">Our vision is to be the default houshold Insurer fulfilling our customer needs and aspirations</p>
+                                    <p class="mb-4">
+                                        To be the preferred Insurer fulfilling our customer needs and aspirations.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -113,12 +117,12 @@ include PARTIALS.'header-jumbo.php';
                                 </span>	
                                 <div class="feature-box-info">
                                     <h2 class="mb-3">Values</h2>
-									<ul class="list list-icons list-icons-style-3">
-                                        <li>We believe the customer is always right</li>
-                                        <li>We esteem integrity and honesty</li>
-                                        <li>We esteem integrity and honesty</li>
-                                        <li>We reward productivity and innovation</li>
-                                        <li>We are one family</li>
+									<ul class="list list-icons list-icons-style-none" style="margin-left:-1.2rem;">
+                                        <li>Service</li>
+                                        <li>Integrity</li>
+                                        <li>Innotation</li>
+                                        <li>Productivity</li>
+                                        <li>Family</li>
                                     </ul>
                                 </div>
                             </div>
@@ -130,41 +134,28 @@ include PARTIALS.'header-jumbo.php';
                 <hr class="solid my-5">
 
                 <section id="achievements" class="mb-4">
-                    <h2 class="mb-0 text-color-dark">Achievements</h2>
-
-                    <div class="row mt-4">
-
-                        <div class="col-sm-6">
-                            <span class="thumb-info thumb-info-side-image thumb-info-no-zoom no-borders mb-4 text-center">
-                                <span class="thumb-info-side-image-wrapper p-0">
-                                    <img src="img/team/team-22.jpg" class="img-fluid" alt="" style="width: 160px;">
-                                </span>
-                                <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text">
-                                        <h5 class="text-uppercase mb-1"><?= CLIENT_NAME ?> - <small class="font-weight-light">Founder</small></h5>
-                                        <p class="mb-0 text-uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+                <h2 class="mb-0 text-color-dark">Achievements</h2>
+                <div class="row">
+						<div class="col">
+							<div class="owl-carousel owl-theme  stage-margin nav-style-1 owl-loaded owl-drag nav-inside owl-carousel-init dots-morphing" data-plugin-options="{'items': 1, 'margin': 10, 'loop': false, 'nav': true, 'dots': true}">
+                                <?php foreach($awards as $index => $award): ?>	
+                                <div class="col-md-6 offset-md-3">
+                                    <span class="thumb-info thumb-info-side-image thumb-info-no-zoom no-borders mb-4 text-center award" >
+                                        <!--span class="thumb-info-side-image-wrapper p-0">
+                                            <img src="<?=IMAGES_URL?>icons/trophy-flat-bw-faded.png" class="img-fluid" alt="" style="width: 160px;">
+                                        </span-->
+                                        <span class="thumb-info-caption">
+                                            <span class="thumb-info-caption-text">
+                                                <h5 class="text-uppercase mb-1"><?= $award['year'] ?></h5>
+                                                <p class="mb-0 text-uppercase"><?= $award['title'].' - <b>'.$award['body'].'</b>' ?></p>
+                                            </span>
+                                        </span>
                                     </span>
-                                </span>
-                            </span>
-
-                        </div>
-                        <div class="col-sm-6">
-                            <span class="thumb-info thumb-info-side-image thumb-info-no-zoom no-borders mb-4">
-                                <span class="thumb-info-side-image-wrapper p-0">
-                                    <img src="img/team/team-23.jpg" class="img-fluid" alt="" style="width: 160px;">
-                                </span>
-                                <span class="thumb-info-caption">
-                                    <span class="thumb-info-caption-text">
-                                        <h5 class="text-uppercase mb-1">Jeremy Doe - <small class="font-weight-light">President</small></h5>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
-                                    </span>
-                                </span>
-                            </span>
-
-                        </div>
-
-                    </div>
-
+								</div>
+                                <?php endforeach; ?>
+							</div>
+						</div>
+					</div>
                 </section>
 
                 <hr class="solid my-5">
@@ -190,3 +181,22 @@ include PARTIALS.'header-jumbo.php';
             </div>
         </div>
     </div>
+    <style>
+        .award{
+            background:url('<?=IMAGES_URL?>icons/trophy-flat-bw-faded.png') no-repeat;
+            background-position:center;
+            transition:all .3s ease-in-out;
+
+        }
+        .award:hover{
+            background:url('<?=IMAGES_URL?>icons/trophy-flat-color-faded-1.png') no-repeat;
+            background-position:center;
+            transition:all .2s ease-in-out;
+        }
+
+    </style>
+    <link rel="stylesheet" href='<?=VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css";?>'>
+    <link rel="stylesheet" href='<?=VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css";?>'>
+
+    <script src="<?=VENDOR_PATH ?>owl.carousel/owl.carousel.min.js"></script>
+    <script src="<?= JS_PATH ?>carousel.js"></script>

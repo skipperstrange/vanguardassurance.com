@@ -132,6 +132,7 @@ function sideArticleTemplate(data){
 async function getArticlesPaginated(url, per_page=15,  dataContainer, container){
 	axios.get(url).then(articles=>{
 		 dataContainer.html('')
+		 if(articles.data.length > 0){
 		 dataContainer.append(articlesTemplate(articles.data))
 		 $(".pagination").jPages({
 			  containerID  :container,
@@ -142,6 +143,10 @@ async function getArticlesPaginated(url, per_page=15,  dataContainer, container)
 			  endRange     : 2,
 			  keyBrowse    : true,
 		  });
+		}else{
+			dataContainer.html('<div class="col-sm-6 col-md-4 col-lg-4 col-xl-4"><h3>Nothing to show</h3> <p>No articles available at the moment. Please come back later.</p></div>')
+
+		}
 			$('#loading-overlay').removeClass('loading-overlay-showing')
 
 	}).catch((err)=>{

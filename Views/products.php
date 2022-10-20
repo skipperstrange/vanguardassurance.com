@@ -75,7 +75,7 @@ $active = '';
                                             $active = '';
                                         }
                                         ?>
-                                    <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>" style="color: var(--charcoal)">
+                                    <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>" >
                                         <h4 class="text-uppercase"><strong><?=format_string($product['title']);?></strong></h4>
                                         <p class="text-2"><?php 
                                         if($product['template'] == true){

@@ -116,7 +116,7 @@ $data['board'] = [
         ]
     ],
     [
-        'title'=>"Group COO",
+        'title'=>"Board Member",
         'name'=>"Kwame Asare Boakye",
         'info'=>"Kwame is a financial analyst with over 15 years’ industry experience – 8 of which he spent within the life insurance sector, close to 2 years focused on microinsurance and the rest within the non-life sector.
 
@@ -257,6 +257,21 @@ $data['board'] = [
              'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
         ]
     ],
+    [
+        'title'=>"Head, HR",
+        'name'=>"Love Ayisibea. Aboagye",
+        'info'=>"Love is a well-organized, dedicated and diplomatic individual with a proven ability to improve working conditions and a commitment to employee welfare. She is attentive to employee concerns and acts with the highest discretion and integrity when dealing with confidential information.
+        Love has a Master of Business Administration in Human Resources Management from the Ghana Business School and has worked in the human resources field for over ten (10) years. She holds an LLB degree in law from Mountcrest University College and is an Associate member of the Chartered Institute of Human Resources Management.
+        Prior to joining the Vanguard team, she was the Human Resources Manager at PHI Century Ltd., Central Logistics Construction Company and Dwadifo Adanfo Ltd where she was instrumental in the development of several HR Policies aimed at improving employee development and performance. She is a driven individual who thrives on collaborating with a diverse group of individuals to achieve success.",
+        'img' => $imagesFolder.'Love1.jpg',
+        'enabled'=> true,
+        'tags'=>["management"],
+        'contact_media'=>[
+            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
+            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
+             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
+        ]
+    ],
 
     [
         'title'=>"Head, Underwritimg",
@@ -276,9 +291,9 @@ $data['board'] = [
     [
         'title'=>"Head, Claims",
         'name'=>"Lily Baah-Nuako",
-        'info'=>"Lily is Chartered Insurer and Associate of the Chartered Insurance Institute, UK with 19 years of experience in the Insurance Industry. Joined Vanguard in 2002 as a Marketing Officer and took
-         other role as Underwriter, Claims Officer, Branch Manager and rose through the ranks to my current position as the Head of Claims,
-        Holds MBA from KNUST and BA in Psychology from the University of Ghana.",
+        'info'=>"Lily is Chartered Insurer and Associate of the Chartered Insurance Institute, UK with 19 years of experience in the Insurance Industry. She joined Vanguard in 2002 as a Marketing Officer and took
+         other role as Underwriter, Claims Officer, Branch Manager and rose through the ranks to my current position as the Head of Claims.
+        Lilly holds MBA from KNUST and BA in Psychology from the University of Ghana.",
         'img' => $imagesFolder.'lilly.jpg',
         'enabled'=> true,
         'tags'=>["management"],
@@ -312,21 +327,6 @@ $data['board'] = [
         Prior to joining Vanguard Assurance in September 2005, he worked as a Finance Officer with Degoull Limited and an Audit Assistant with Messrs E.O. Mensah & Co (Chartered Accountants).
         He is currently the Head of Compliance Department.",
         'img' => $imagesFolder.'Leonard.jpg',
-        'enabled'=> true,
-        'tags'=>["management"],
-        'contact_media'=>[
-            'facebook'=>["link"=>"", 'icon'=>'facebook','follow_icon'=>'fa-facebook-f'],
-            'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
-             'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
-        ]
-    ],
-    [
-        'title'=>"Head, HR",
-        'name'=>"Love Ayisibea. Aboagye",
-        'info'=>"Love is a well-organized, dedicated and diplomatic individual with a proven ability to improve working conditions and a commitment to employee welfare. She is attentive to employee concerns and acts with the highest discretion and integrity when dealing with confidential information.
-        Love has a Master of Business Administration in Human Resources Management from the Ghana Business School and has worked in the human resources field for over ten (10) years. She holds an LLB degree in law from Mountcrest University College and is an Associate member of the Chartered Institute of Human Resources Management.
-        Prior to joining the Vanguard team, she was the Human Resources Manager at PHI Century Ltd., Central Logistics Construction Company and Dwadifo Adanfo Ltd where she was instrumental in the development of several HR Policies aimed at improving employee development and performance. She is a driven individual who thrives on collaborating with a diverse group of individuals to achieve success.",
-        'img' => $imagesFolder.'Love1.jpg',
         'enabled'=> true,
         'tags'=>["management"],
         'contact_media'=>[
@@ -385,10 +385,9 @@ $data['board'] = [
              'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
         ]
     ],
-
 ];
 
 $data['teamFilterTags'] = [
     ['tag'=>'board', 'label'=>'board of directors', 'enabled'=> true],
-    ['tag'=>'management', 'label'=>'management', 'enabled'=> true]
+    ['tag'=>'management', 'label'=>'leadership', 'enabled'=> true]
 ];

@@ -1,7 +1,7 @@
 <?php
 
 
-$data['achievements'] = [
+$data['awards'] = [
     [
         'body'=> 'Ghana Accountancy and Finance Awards',
         'title'=> 'Best Insurer in Claims Payment',

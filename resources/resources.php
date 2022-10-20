@@ -21,8 +21,8 @@ $styles = [
 		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"], // fontawsome 6
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."animate/animate.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."simple-line-icons/css/simple-line-icons.min.css"],
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css"],
+		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
+		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."magnific-popup/magnific-popup.min.css"],
 
 		// Theme CSS

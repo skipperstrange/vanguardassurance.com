@@ -1,9 +1,7 @@
 <?php
 //include_once PARTIALS.'sub-header.php';
 include PARTIALS.'header-jumbo.php';
-
 ?>
-
 <div class="container py-4">
     <ul class="nav nav-pills sort-source sort-source-style-3 justify-content-center" data-sort-id="team" data-option-key="filter">
         <!--li class="nav-item active" data-option-value="*"><a class="nav-link text-1 text-uppercase active" href="#">Show All</a></li-->

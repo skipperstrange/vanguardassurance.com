@@ -1,6 +1,9 @@
 <?php
 include_once STATIC_DATA.'board.php';
 include_once STATIC_DATA.'affiliates.php';
+include_once STATIC_DATA.'affiliates.php';
+include_once STATIC_DATA.'achievements.php';
+$awards = $data['awards'];
 $affiliates = $data['affiliates'];
 
 $headerTitle = '<h1>Our <strong>Story</strong></h1>';
