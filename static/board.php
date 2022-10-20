@@ -272,7 +272,7 @@ $data['board'] = [
              'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
         ]
     ],
-
+/*
     [
         'title'=>"Head, Underwritimg",
         'name'=>"Abeiku Terry",
@@ -384,7 +384,7 @@ $data['board'] = [
             'linkedin'=>["link"=>"", 'icon'=>'linkedin','follow_icon'=>'fa-linkedin-in'],
              'twitter'=>["link"=>"", 'icon'=>'twitter','follow_icon'=>'fa-twitter'],
         ]
-    ],
+    ],*/
 ];
 
 $data['teamFilterTags'] = [
