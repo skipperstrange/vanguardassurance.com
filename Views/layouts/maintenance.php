@@ -39,7 +39,7 @@
 										</div>
 										<div class="feature-box-info">
 											<h4 class="text-4 text-uppercase mb-1 font-weight-bold">Whats this about?</h4>
-											<p class="mb-4">Occasionally websites require time for refctoring and maintainence to give our users maximum positive user experince. Please bear with us</p>
+											<p class="mb-4">Occasionally websites require time for refctoring and maintenence to give our users maximum positive user experince. Please bear with us</p>
 										</div>
 									</div>
 								</div>
