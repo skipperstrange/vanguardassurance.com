@@ -44,7 +44,7 @@ if(PRETTY_URLS == true){
     // if match found appends $matches to $params
     // sets $route_match to true and also exits loop.
 
-        if (preg_match($route['url'], $url, $matches)) {
+        if (preg_match($route['url'], ltrim($url, '/'), $matches)) {
             
             $params = array_merge($params, $matches);
 
@@ -55,10 +55,10 @@ if(PRETTY_URLS == true){
             $route_match = true;
             break;
         }
+    }
 
-        if(!$route_match) {
-            $view = '404';$controller = '';
-        }
+    if(!$route_match) {
+        $view = '404';$controller = '';
     }
 }else{
     //resort to the conventional query strin method of accessing parsed get data. i. e. (?controller=index&view=index...)

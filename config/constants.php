@@ -47,7 +47,7 @@ if(MODE === 'development'){
 //endif;
 
 //Uses bitnami  wordpress image from virtual machine. Makes straight calls to the api endpoint
-define('CONTENT_SERVER', 'http://192.168.56.103/wp-json/wp/v2' . DS);
+define('CONTENT_SERVER', 'https://vanguardassurance.com/vacnews//wp-json/wp/v2' . DS);
 
 define('LIB', 'lib' . DS);
 define('STATIC_DATA', 'static'.DS);

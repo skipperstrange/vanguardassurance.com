@@ -8,7 +8,9 @@ define("ROUTES", [
 ['url'=>'@^home\/$@', 'name'=>'home', 'controller'=>'index', 'view'=>'index'],
 
 //# controller:aztrasC view:index
-['url'=>'@^$@', 'name'=>'/', 'controller'=>'index', 'view'=>'index'],
+['url'=>'@^$@', 'name'=>'', 'controller'=>'index', 'view'=>'index'],
+['url'=>'@^/$@', 'name'=>'/', 'controller'=>'index', 'view'=>'index'],
+
 ['url'=>'@^contact-us/$@', 'name'=>'contact', 'controller'=>'contact-us', 'view'=>'contact-us'],
 ['url'=>'@^contact-us$@', 'name'=>'contact', 'controller'=>'contact-us', 'view'=>'contact-us'],
 
@@ -30,12 +32,12 @@ define("ROUTES", [
 ['url'=>'@^products$@', 'name'=>'products', 'controller'=>'products', 'view'=>'products'],
 
 
-['url'=>'@^news/(?P<id>\d+)/$@', 'name'=>'news-single', 'controller'=>'article', 'view'=>'article'],
-['url'=>'@^news/(?P<id>\d+)$@', 'name'=>'news-single', 'controller'=>'article', 'view'=>'article'],
+['url'=>'@^articles/(?P<id>\d+)/$@', 'name'=>'news-single', 'controller'=>'article', 'view'=>'article'],
+['url'=>'@^articles/(?P<id>\d+)$@', 'name'=>'news-single', 'controller'=>'article', 'view'=>'article'],
 
 
-['url'=>'@^news/$@', 'name'=>'news', 'controller'=>'news', 'view'=>'news'],
-['url'=>'@^news$@', 'name'=>'news', 'controller'=>'news', 'view'=>'news'],
+['url'=>'@^articles/$@', 'name'=>'news', 'controller'=>'news', 'view'=>'news'],
+['url'=>'@^articles$@', 'name'=>'news', 'controller'=>'news', 'view'=>'news'],
 
 
 ['url'=>'@^categories/(?P<id>\d+)/$@', 'name'=>'categories', 'controller'=>'categories', 'view'=>'news'],

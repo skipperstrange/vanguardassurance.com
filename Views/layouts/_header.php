@@ -24,6 +24,9 @@
  -->
  <script>
   var FQDN = '<?=WEB_URL?>';
+  var NEWS_URL = FQDN+'articles/';
+  var AUTHOR_NEWS_URL = FQDN+'authors/'; 
+  var DEFAULT_MEDIA_IMG = FQDN+'public/images/article.jpg'
  </script>
 </head>
 

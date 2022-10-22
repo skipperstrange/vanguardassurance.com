@@ -137,7 +137,7 @@ include PARTIALS.'header-jumbo.php';
                 <h2 class="mb-0 text-color-dark">Achievements</h2>
                 <div class="row">
 						<div class="col">
-							<div class="owl-carousel owl-theme  stage-margin nav-style-1 owl-loaded owl-drag nav-inside owl-carousel-init dots-morphing" data-plugin-options="{'items': 1, 'margin': 10, 'loop': false, 'nav': true, 'dots': true}">
+							<div class="owl-carousel owl-theme  stage-margin nav-style-1 owl-loaded owl-drag nav-inside owl-carousel-init dots-morphing" data-plugin-options="{'items': 1, 'margin': 10, 'loop': true, 'nav': true, 'dots': true, 'autoplay':true}">
                                 <?php foreach($awards as $index => $award): ?>	
                                 <div class="col-md-6 offset-md-3">
                                     <span class="thumb-info thumb-info-side-image thumb-info-no-zoom no-borders mb-4 text-center award" >
@@ -146,8 +146,8 @@ include PARTIALS.'header-jumbo.php';
                                         </span-->
                                         <span class="thumb-info-caption">
                                             <span class="thumb-info-caption-text">
-                                                <h5 class="text-uppercase mb-1"><?= $award['year'] ?></h5>
-                                                <p class="mb-0 text-uppercase"><?= $award['title'].' - <b>'.$award['body'].'</b>' ?></p>
+                                                <h4 class="text-uppercase mb-1"><?= $award['year'] ?></h4>
+                                                <p class="mb-0 text-uppercase font-weight-bold"><?= $award['title'].' - <b>'.$award['body'].'</b>' ?></p>
                                             </span>
                                         </span>
                                     </span>
