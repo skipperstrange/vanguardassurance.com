@@ -195,4 +195,8 @@ include PARTIALS.'header-jumbo.php';
         }
 
     </style>
-    
+    <link rel="stylesheet" href='<?=VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css";?>'>
+    <link rel="stylesheet" href='<?=VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css";?>'>
+
+    <script src="<?=VENDOR_PATH ?>owl.carousel/owl.carousel.min.js"></script>
+    <script src="<?= JS_PATH ?>carousel.js"></script>
