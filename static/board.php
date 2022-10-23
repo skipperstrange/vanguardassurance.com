@@ -215,9 +215,8 @@ $data['board'] = [
     [
         'title'=>"Head, Technical",
         'name'=>"David Avor",
-        'info'=>"David oversees the entire Reinsurance function at Vanguard Assurance.
-
-        He is a Chartered Insurer and an Associate of the Chartered Insurance Institute, UK. He holds a BSc in Administration (Insurance option) and a Masters in Finance, both from the University of Ghana Business School.",
+        'info'=>"David has over 10 years industry experience serving in various technical operations and strategic capacities. He joined Vanguard Assurance in the year 2011 and has steadily risen through the ranks. Prior to his appointment as Head, Technical Operations in June 2022, he served as the Head of Reinsurance with the additional role of spearheading the company’s products development for over 5 years. 
+        David is both a Chartered Insurer and a Chartered Accountant. He is an Associate of the Chartered Insurance Institute, UK, Chartered Insurance Institute of Ghana and the Institute of Chartered Accountants, Ghana. He holds a BSc in Administration (Insurance option) and a Masters in Finance, both from the University of Ghana Business School.",
         'img' => $imagesFolder.'DAVID-AVOR.jpg',
         'enabled'=> true,
         'tags'=>["management"],

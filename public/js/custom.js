@@ -215,7 +215,7 @@ function _template(title = '404!', msg ='Could not load resource.', subMsg = 'Pl
 			<span><i class="far fa-folder"></i> ${data.x_categories} </span>
 			<!--span><i class="far fa-comments"></i> <a href="#">12 Comments</a></span-->
 		</div>
-		<p id="conten my-5">
+		<p id="conten my-5" style="margin-top:3rem;">
 		${data.content.rendered}
 		</p>
 
