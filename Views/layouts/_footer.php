@@ -93,16 +93,43 @@
 		
 
 </div><!-- div.body end -->
+
 <?= generate_tag_group('script', $footerJs);?>
 
 <script>
-    $(".timeago").each(function(i,el){
+	var $menuItem = $('.head-menu-item');
+	$(function() {
+   /*$menuItem.each(function(){
+		var $me = $(this);
+		var menu_link = $me.attr('href');
+		var contentLoaded = false;
+		var preview;
+		var contentContainer = $('#main');
+
+		console.log(menu_link, contentContainer);
+			$me.click((e)=>{
+				$.get(menu_link, (data)=>{
+					console.log(data)
+					contentContainer.html(data);
+				})
+				return false;
+				e.preventDefault()
+			})
+		})
+		*/
+	})
+    
+	$(".timeago").each(function(i,el){
         var element = $(el);
         // Change text of element to a human readable date with ago
         // like 2 minutes, 2 hours
         element.text(ago(element.attr("timestamp")));
     });
+
+	
+
 </script>
+
 <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
