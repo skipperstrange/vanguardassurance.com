@@ -247,7 +247,7 @@
 								<div class="tp-caption d-none d-sm-block"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;","to":"o:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 								    data-type="image" 
-								    data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
+								    data-x="right" data-hoffset="['0','-210','-270','500']"
 								    data-y="center"
 								    data-width="['auto']"
 									data-height="['auto']"
@@ -277,8 +277,8 @@
 									data-width="['500','500','500','500']"
 									data-fontsize="['48','48','48','48']"
 									data-lineheight="['55','55','55','55']"
-									data-textAlign="['left','left','left','center']">
-									GET INSURANCE ON WHATSAPP WITH VALUE MAN <br>
+									data-textAlign="['left','left','left','left']">
+									GET INSURANCE ON WHATSAPP WITH VALUE MAN <br />
 								</div>
 
 								
@@ -294,7 +294,7 @@
 								
 
 
-								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-success font-weight-bold rounded"
+								<a class="tp-caption d-inline-flex align-items-center mt-4 btn btn-success font-weight-bold rounded"
 									href="<?= whatsappUrl(WHATSAPP_CONTACT_1_CLEAN)?>" target="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
@@ -319,8 +319,8 @@
 								<div class="tp-caption tp-resizeme d-none d-sm-block"
 									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;","to":"o:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 								    data-type="image" 
-								    data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
-								    data-y="center"
+								    data-x="left" data-hoffset="['-50','-100','100','-150']"
+								    data-y="bottom"
 								    data-width="['auto']"
 								    data-height="['auto']"
 									data-basealign="grid"><img src="<?=IMAGES_URL.'matrix-guy-small-left.png'?>" alt=""></div>
@@ -346,7 +346,7 @@
 								<h1 class="tp-caption font-weight-extra-bold text-color-light line ws-normal"
 									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['right','right','right','center']" data-hoffset="['145','145','0','0']"
-									data-y="center" data-voffset="['-85','-85','-85','-85']"
+									data-y="center" data-voffset="['0','-85','-85','-85']"
 									data-width="['500','500','500','500']"
 									data-fontsize="['48','48','48','48']"
 									data-lineheight="['55','55','55','55']"
@@ -363,7 +363,7 @@
 									data-textAlign="['left','left','left','center']">WITH VANGUARD ASSURANCE<br>
 								</div>
 
-								<a class="tp-caption d-inline-flex align-items-center btn btn-primary font-weight-bold rounded"
+								<a class="tp-caption d-inline-flex align-items-center mt-4 btn btn-primary font-weight-bold rounded"
 									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="center" data-hoffset="['170','170','70','0']"
@@ -436,7 +436,7 @@
 								
 
 
-								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
+								<a class="tp-caption d-inline-flex align-items-center mt-4 btn btn-info font-weight-bold rounded"
 									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
@@ -490,11 +490,11 @@
 								</div>
 
 								
-								<div class="tp-caption font-weight-light text-color-light mt-2 opacity-7 ws-normal"
+								<div class="tp-caption font-weight-light text-color-light mt-2 opacity-8 ws-normal"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
 									data-y="center" data-voffset="['10','10','10','10']"
-									data-width="['900','900','900','900']"
+									data-width="['500','500','500','500']"
 									data-fontsize="['27','27','27','33']"
 									data-lineheight="['26','26','26','26']"
 									data-textAlign="['left','left','left','center']"><strong> With Vanguard Assurance</strong>
@@ -502,7 +502,7 @@
 								
 
 
-								<a class="tp-caption d-inline-flex align-items-center mt-2 btn btn-info font-weight-bold rounded"
+								<a class="tp-caption d-inline-flex align-items-center mt-4 btn btn-info font-weight-bold rounded"
 									href="https://app.vanguardassurance.com/" traget="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
