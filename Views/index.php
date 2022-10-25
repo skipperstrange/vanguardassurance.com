@@ -61,11 +61,11 @@
 							<div class="col-lg-6 text-center text-lg-start order-2 order-lg-1 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
 								<h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Get Affordable <strong>Insurance Online</strong></h2>
 								
-								<a href="https://app.vanguardassurance.com/" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">GEAT A QUOTE</a>
+								<a href="https://app.vanguardassurance.com/"  targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">GEAT A QUOTE</a>
                                 
-								<a href="https://apps.apple.com/gh/app/vanguard-assurance/id1547086101" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-app-store" style="font-size:1.6rem;"></i></a>
+								<a href="https://apps.apple.com/gh/app/vanguard-assurance/id1547086101" targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-app-store" style="font-size:1.6rem;"></i></a>
                                 
-								<a href="https://play.google.com/store/apps/details?id=com.vanguard.app" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-google-play" style="font-size:1.6rem;"></i></a>
+								<a href="https://play.google.com/store/apps/details?id=com.vanguard.app"  targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-google-play" style="font-size:1.6rem;"></i></a>
 							</div>
 							<div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
 								<img src="<?=IMAGES_URL?>new-lp2.png" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">

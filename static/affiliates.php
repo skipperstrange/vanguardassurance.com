@@ -15,13 +15,16 @@
         'title'=>'Vanguard Life Assurance Company Limited',
         'logo' => 'vaclife.png',
     ],
-   /* 
-   [
-        'name'=>'ghana_leasing_company',
-        'title'=>'Ghana Leasing Company',
-        'logo' =>''
+    [
+        'name'=>'munich_re',
+        'title'=>'Munich RE',
+        'logo' =>'munichRe'
     ],
-    */
+    [
+        'name'=>'swissh_re',
+        'title'=>'Swissh RE',
+        'logo' =>'swissRe'
+    ],
     [
         'name'=>'blue_orchard',
         'title'=>'Blue Orchard',

@@ -12,7 +12,7 @@
                     <?php foreach($affiliates as $affiliate){ 
                         if(trim($affiliate['logo']) != ''):
                         ?>
-							<div class="col-sm-4 col-lg-3">
+							<div class="col-sm-4 col-lg-4">
 								<img src="<?= IMAGES_URL.$affiliate['logo'] ?>" alt="<?= $affiliate['title'] ?>" title="Affiliations: <?= $affiliate['title'] ?>" class="img-fluid" style="max-width: 14rem ;">
 							</div>
                     <?php 
