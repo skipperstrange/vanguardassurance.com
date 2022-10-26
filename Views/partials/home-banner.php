@@ -308,6 +308,7 @@
 
 							</li>
 
+							<!-- Tech Guy -->
 							<li data-transition="fade" class=" overlay-show overlay-color-primary">
 								<img src="<?=IMAGES_URL.'office-faded-1-deep.jpg'?>"  
 									alt=""
@@ -316,21 +317,21 @@
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
 
-									<div class="tp-caption font-weight-extra-bold  line ws-normal"
+								<div class="tp-caption font-weight-extra-bold  line ws-normal"  style="color:white;"
 									data-frames='[{"delay":1500,"speed":400,"frame":"0","from":"opacity:0;x:50%;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-x="['left','left','left','center']" data-hoffset="['145','145','145','0']"
 									data-y="center" data-voffset="['-85','-85','-85','-85']"
 									data-width="['500','500','500','500']"
 									data-fontsize="['48','48','48','48']"
 									data-lineheight="['55','55','55','55']"
 									data-textAlign="['left','left','left','left']">
-									<span style="color:white;">STAY AHEAD OF THE CURVE </span><br />
+									<span>STAY AHEAD OF </span><br /> THE CURVE
 								</div>
 
 								
 								<div class="tp-caption font-weight-light mt-2 opacity-7 ws-normal font-weight-bold"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-x="['left','left','left','center']" data-hoffset="['145','145','145','0']"
 									data-y="center" data-voffset="['0','0','0','0']"
 									data-width="['900','900','900','900']"
 									data-fontsize="['27','27','27','33']"
@@ -341,7 +342,7 @@
 								<a class="tp-caption d-inline-flex align-items-center mt-4 btn btn-primary font-weight-bold rounded"
 									href="https://app.vanguardassurance.com/" target="_blank"
 									data-frames='[{"delay":3000,"speed":2000,"frame":"0","from":"y:50%;opacity:0;","to":"y:0;o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-									data-x="['left','left','left','center']" data-hoffset="['145','145','0','0']"
+									data-x="['left','left','left','center']" data-hoffset="['145','145','145','0']"
 									data-y="center" data-voffset="['65','65','65','65']"
 									data-paddingtop="['16','16','16','24']"
 									data-paddingbottom="['16','16','16','24']"
@@ -358,11 +359,21 @@
 									data-y="center"
 									data-height="1000"
 									data-width="100%"
-									data-basealign="slide"></div>
+									data-basealign="slide">
+								</div>
+								<div class="tp-caption d-none d-sm-block"
+									data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;","to":"o:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+								    data-type="image" 
+								    data-x="['right','right','right','center']" data-hoffset="['-350','-700','-600',-500']"
+								    data-y="center"
+								    data-width="['auto']"
+									data-height="['auto']"
+									data-basealign="grid"><img src="<?=IMAGES_URL.'matrix-guy-small-left.png'?>" alt=""></div>
 
 
 							</li>
 
+							<!-- Homeprehensive -->
 							<li class="slide-overlay slide-overlay-primary text-white" data-transition="fade">
 								<img src="img/slides/slide-bg-light-1.jpg"  
 									alt=""
@@ -435,11 +446,11 @@
 									data-lineheight="['20','20','20','22']">Get a Quote<i class="fas fa-arrow-right ml-4 pl-1 mr-2 text-4"></i></a>
 
 							</li>
-
+							<!-- Guy toasting girl -->
 							<li class=" slide-overlay-none text-white" data-transition="fade">
 								<img src="<?=IMAGES_URL.'slide-2-empty-reverse.jpg'?>"  
 									alt=""
-									data-bgposition="center center" 
+									data-bgposition="left center" 
 									data-bgfit="cover" 
 									data-bgrepeat="no-repeat" 
 									class="rev-slidebg">
@@ -504,7 +515,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<!-- Only Use for Option 3-->
 				<!-- Only Use for Option 3-->
 				

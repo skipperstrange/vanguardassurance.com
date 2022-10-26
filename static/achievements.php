@@ -34,7 +34,7 @@ $data['awards'] = [
     ],
     [
         'body'=> 'Ghana Accountancy and Finance Awards',
-        'title'=> 'Claims initiative of the yea',
+        'title'=> 'Claims initiative of the year',
         'year' => '2018',
     ],
     [

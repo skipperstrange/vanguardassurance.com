@@ -18,12 +18,12 @@
     [
         'name'=>'munich_re',
         'title'=>'Munich RE',
-        'logo' =>'munichRe'
+        'logo' =>'munichRe.png'
     ],
     [
         'name'=>'swissh_re',
         'title'=>'Swissh RE',
-        'logo' =>'swissRe'
+        'logo' =>'swissRe.png'
     ],
     [
         'name'=>'blue_orchard',

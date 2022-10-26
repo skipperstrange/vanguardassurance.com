@@ -23,7 +23,7 @@
                                     <img src="<?=IMAGES_URL.'icons/umbrella.png'?>" class="img-fluid" style="max-height:90px" />
                                 </div>
 								<h3 class="text-color-dark text-transform-none text-5-6 font-weight-semibold mb-3">Competetive Edge</h3>
-								<p class="text-3-5 mb-0">Our timeless and continues research and customer feedback helpsus adhere to the needs of our clients. </p>
+								<p class="text-3-5 mb-0">Our timeless and continues research and customer feedback helps us adhere to the needs of our clients. </p>
 							</div>
 							<div class="col-md-9 col-lg-4 text-center appear-animation animated fadeInRightShorterPlus appear-animation-visible" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
 								<div class="animated-icon animated fadeIn svg-stroke-color-secondary mb-4-5">
@@ -61,11 +61,11 @@
 							<div class="col-lg-6 text-center text-lg-start order-2 order-lg-1 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" style="animation-delay: 100ms;">
 								<h2 class="text-color-dark font-weight-medium text-8 mb-4-5">Get Affordable <strong>Insurance Online</strong></h2>
 								
-								<a href="https://app.vanguardassurance.com/"  targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">GEAT A QUOTE</a>
+								<a href="https://app.vanguardassurance.com/"  target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3">GEAT A QUOTE</a>
                                 
-								<a href="https://apps.apple.com/gh/app/vanguard-assurance/id1547086101" targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-app-store" style="font-size:1.6rem;"></i></a>
+								<a href="https://apps.apple.com/gh/app/vanguard-assurance/id1547086101" target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-app-store" style="font-size:1.6rem;"></i></a>
                                 
-								<a href="https://play.google.com/store/apps/details?id=com.vanguard.app"  targrt="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-google-play" style="font-size:1.6rem;"></i></a>
+								<a href="https://play.google.com/store/apps/details?id=com.vanguard.app"  target="_blank" class="btn btn-secondary btn-outline btn-rounded font-weight-bold btn-px-5 py-3"><i class="fa-brands fa-google-play" style="font-size:1.6rem;"></i></a>
 							</div>
 							<div class="col-lg-5 text-center text-lg-end order-1 order-lg-2">
 								<img src="<?=IMAGES_URL?>new-lp2.png" class="img-fluid mb-4 mb-lg-0 appear-animation animated fadeInLeftShorterPlus appear-animation-visible" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="100" alt="" style="animation-delay: 100ms;">

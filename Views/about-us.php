@@ -146,8 +146,9 @@ include PARTIALS.'header-jumbo.php';
                                         </span-->
                                         <span class="thumb-info-caption">
                                             <span class="thumb-info-caption-text">
-                                                <h4 class="text-uppercase mb-1"><?= $award['year'] ?></h4>
-                                                <p class="mb-0 text-uppercase font-weight-bold"><?= $award['title'].' - <b>'.$award['body'].'</b>' ?></p>
+                                                <h3 class="text-uppercase mb-1"><?= $award['year'] ?></h3>
+                                                <div class="mb-0 text-uppercase text-4 text-primary font-weight-bold"><?= $award['title'] ?></div>
+                                                 <div class="text-4 text-uppercase"> <b><?=$award['body']?></b></div>
                                             </span>
                                         </span>
                                     </span>
