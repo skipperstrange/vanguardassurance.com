@@ -39,11 +39,11 @@
 								<p class="pr-1">Keep up on our ever evolving product features and technology. Download the app from the app store!</p>
 							</div>
 							<div class="container">
-								<div class="row">
-									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+								<div class="row text-justify" >
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
 										<a href="<?=PLAYSTORE_LINK?>" target="_blank" class="link-block-3 w-inline-block"><img class="img-fluid" src="<?= IMAGES_URL ?>play.webp" alt=""></a>	
 									</div>
-									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
 										<a href="<?=APP_STORE_LINK ?>" target="_blank" class="link-block-4 w-inline-block"><img class="img-fluid" src="<?= IMAGES_URL ?>store.webp" alt=""></a>
 									</div>								
 								</div>								
