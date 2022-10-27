@@ -48,7 +48,7 @@ include PARTIALS.'header-jumbo.php';
                                 if(trim($details['link']) != ''):
                                 ?>
                             <a target="_blank" href="<?= $details['link'] ?>"><i class="fab fa-<?= $details['icon'] ?>"></i><span><?= format_string($contact) ?></span></a>
-                            <?php 
+                                <?php 
                             endif;
                         endforeach; ?>
                         </span>

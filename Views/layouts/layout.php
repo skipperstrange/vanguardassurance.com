@@ -21,6 +21,7 @@ include_once VIEWS.'layouts'.DS.'_footer.php';
 }else{
     if(file_exists(VIEWS.$view.'.php')){
     @include_once VIEWS.$view.'.php';
+    @include_once PARTIALS.'_rerun_scripts.php';
 }
 }
 ?>
