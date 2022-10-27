@@ -111,8 +111,6 @@
                     <?php include PARTIALS.'left-flair.php'?>	
 				</section>
 
-
-          
 				<!--section-- class="section section-height-3 position-relative z-index-1 border-0 m-0">
 					<div class="container">
 						<div class="row align-items-center gy-5">
@@ -120,4 +118,4 @@
 						</div>
 					</div>
 				</section-->
-<?php include PARTIALS.'footer-banner.php'; ?>
+<?php @include PARTIALS.'footer-banner.php'; ?>

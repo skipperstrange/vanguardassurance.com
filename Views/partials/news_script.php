@@ -1,8 +1,8 @@
 <script>
  
-    const dataContainer =$('#blog-posts')
+    var articlesContainer =$('#blog-posts')
     $(function(){
-        getArticlesPaginated('<?= CONTENT_SERVER ?>posts',10,dataContainer,'blog-posts')
+        getArticlesPaginated('<?= CONTENT_SERVER ?>posts',10,articlesContainer,'blog-posts')
       
     })
    

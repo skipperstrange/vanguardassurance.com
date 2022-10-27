@@ -98,6 +98,7 @@
 
 <script>
 	var $menuItem = $('.head-menu-item');
+	var activeMenuLink = '';
 	$(function() {
    $menuItem.each(function(){
 		var $me = $(this);
@@ -105,16 +106,25 @@
 		var contentLoaded = false;
 		var preview;
 		var contentContainer = $('#main');
-
-		console.log(menu_link, contentContainer);
-			$me.click((e)=>{
-				$.get(menu_link, (data)=>{
-					console.log(data)
-					contentContainer.html(data);
+		
+		
+				$me.click((e)=>{
+					if(!$me.hasClass('active')){
+						$.get(menu_link, (data)=>{
+							contentContainer.html('');
+							contentContainer.append(data);
+							activeMenuLink = $me.html();
+						})
+						$menuItem.removeClass('active');
+						$me.addClass('active');
+						window.scrollTo(0, 0);
+						return false;
+						e.preventDefault()
+					}else{
+						return false;
+						e.preventDefault()
+					}
 				})
-				return false;
-				e.preventDefault()
-			})
 		})
 		
 	})

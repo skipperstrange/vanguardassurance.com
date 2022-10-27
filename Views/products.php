@@ -26,78 +26,78 @@ $active = '';
 </div>
             
 <div class="container">
-        <div class="tab-content" style="border:none; box-shadow:none;">
+    <div class="tab-content" style="border:none; box-shadow:none;">
         <?php foreach($products as $index => $product){
-                    if($active_index == $index){
-                        $active = 'active';
-                    }else{
-                        $active = '';
-                    }
-					?>
-            <div class="tab-pane text-2 <?= $active?>" id="_<?=$index?>">
+                if($active_index == $index){
+                    $active = 'active';
+                }else{
+                    $active = '';
+                }
+                ?>
+        <div class="tab-pane text-2 <?= $active?>" id="_<?=$index?>">
 
-                <div class="container py-2">
-                <h1 class="text-capitalize text-dark">
-                    <strong>
-                    <?=format_string($index)?>
-                    </strong>
-                </h1>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
-                                <ul class="nav nav-tabs col-sm-3">
-                                <?php 
-                                $catalogue = $products[$index];
-                                foreach($catalogue as $product_index => $product) { 
-                                    if($active_index == $product_index){
-                                        $active = 'active';
-                                    }else{
-                                        $active = '';
-                                    }
-                                    ?>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#<?= $index.'_'.$product['product_name']?>" data-toggle="tab"><?=format_string($product['title']);?></a>
-                                    </li>
-                                <?php 
-                                }
-                                ?>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-lg-8">
-                                    <?php
-                                    $sub_active_index = 0;
-                                    foreach($catalogue as $product_index => $product) { 
-                                        if($sub_active_index == $product_index){
-                                            $active = 'active';
-                                        }else{
-                                            $active = '';
-                                        }
-                                        ?>
-                                    <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>" >
-                                        <h4 class="text-uppercase"><strong><?=format_string($product['title']);?></strong></h4>
-                                        <p class="text-2"><?php 
-                                        if($product['template'] == true){
-                                            include STATIC_DATA.'/products/'.$index.'_'.$product['product_name'].'.php';
-                                        }
-                                        else{
-                                            echo $product['description'] ;
-                                        }
-                                        ?></p>  
-                                        <p><?= $product['writeup'];?></p>  
-                                    </div>
-                                    <?php 
-                                } ?>
-                        </div>
+            <div class="container py-2">
+            <h1 class="text-capitalize text-dark">
+                <strong>
+                <?=format_string($index)?>
+                </strong>
+            </h1>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="tabs tabs-vertical tabs-right tabs-navigation tabs-navigation-simple">
+                        <ul class="nav nav-tabs col-sm-3">
+                        <?php 
+                        $catalogue = $products[$index];
+                        foreach($catalogue as $product_index => $product) { 
+                            if($active_index == $product_index){
+                                $active = 'active';
+                            }else{
+                                $active = '';
+                            }
+                            ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#<?= $index.'_'.$product['product_name']?>" data-toggle="tab"><?=format_string($product['title']);?></a>
+                            </li>
+                        <?php 
+                        }
+                        ?>
+                        </ul>
                     </div>
-                    
+                </div>
+                <div class="col-lg-8">
+                        <?php
+                        $sub_active_index = 0;
+                        foreach($catalogue as $product_index => $product) { 
+                            if($sub_active_index == $product_index){
+                                $active = 'active';
+                            }else{
+                                $active = '';
+                            }
+                            ?>
+                        <div class="tab-pane tab-pane-navigation <?=$active;?>" id="<?=  $index.'_'.$product['product_name']?>" >
+                            <h4 class="text-uppercase"><strong><?=format_string($product['title']);?></strong></h4>
+                            <p class="text-2"><?php 
+                            if($product['template'] == true){
+                                include STATIC_DATA.'/products/'.$index.'_'.$product['product_name'].'.php';
+                            }
+                            else{
+                                echo $product['description'] ;
+                            ?></p>  
+                            <p><?= $product['writeup'];?></p> 
+                            <?php 
+                            }
+                            ?> 
+                        </div>
+                        <?php 
+                        } ?>
                 </div>
             </div>
-            <?php
-        }
-        ?>
+                
+            </div>
         </div>
+        <?php
+        }?>
     </div>
 </div>
 <?php 
