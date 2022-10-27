@@ -117,7 +117,7 @@
 						})
 						$menuItem.removeClass('active');
 						$me.addClass('active');
-						window.scrollTo(0, 0);
+						window.scrollTo({top: 0, behavior: 'smooth'});
 						return false;
 						e.preventDefault()
 					}else{
