@@ -1,5 +1,5 @@
 <?php
-function _title(String $title = ''){
+function _title( $title = ''){
     if(trim($title) == ''){
         return APP_NAME;
     }else{
@@ -7,7 +7,7 @@ function _title(String $title = ''){
     }
 }
 
-function _meta(String $title = ''){
+function _meta($title = ''){
     if(trim($title) == ''){
         return APP_NAME;
     }else{

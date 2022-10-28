@@ -1,6 +1,6 @@
 <?php
 
-define('CLIENT_NAME', 'Vanguard Assurance Company LTD');
+define('CLIENT_NAME', 'Vanguard Assurance');
 define('WEBSITE', 'https://www.vanguardassurance.com');
 define('ADDRESS', '');
 define('STREET_ADDRESS', '25 Independence Avenue, Ridge-Accra');

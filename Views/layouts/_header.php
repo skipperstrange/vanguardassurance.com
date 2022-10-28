@@ -3,6 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <?= generate_tag_group('meta',$metadata, false) ?>
+    <?= generate_tag_group('meta',$socialMetadata, false) ?>
 
     <!-- styles -->
     <?= generate_tag_group('link',$styles, false) ?>

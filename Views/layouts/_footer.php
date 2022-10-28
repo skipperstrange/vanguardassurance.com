@@ -117,7 +117,9 @@
 						})
 						$menuItem.removeClass('active');
 						$me.addClass('active');
+						$('title').html('<?= CLIENT_NAME ?> - '+ $me.html());
 						window.scrollTo({top: 0, behavior: 'smooth'});
+						window.history.pushState({},null,menu_link);
 						return false;
 						e.preventDefault()
 					}else{

@@ -4,11 +4,31 @@ $metadata = [
     ['charset'=>"utf-8", 'http-equiv'=>"X-UA-Compatible",'content'=>"IE=edge"],
     
     ['name'=>"keywords", 'content'=>"We stand by you, Vanguard Assurance"],
-    ['name'=>"viewport", 'content'=>"width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"],
+    ['name'=>"viewport", 'content'=>"user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no", "media"=>"(device-height: 568px)"],
+    ['name'=>"apple-mobile-web-app-capable", 'content'=>"yes"],
+    ['name'=>"apple-mobile-web-app-capable-status-bar-style", 'content'=>"blue"],
     ['name'=>"author", 'content'=>"skipperstrange@gmail.com"],
     ['name'=>"description", 'content'=>_meta("The no. 1 insurance company in ghana")],
 ];
 
+$socialMetadata = [
+    ["property"=>"og:url", "content"=>activeUrl()],
+    ["property"=>"og:type", "content"=>"website"],
+    ["property"=>"og:title", "content"=>_title($pagetitle)],
+    ["property"=>"og:description", "content"=>"Vanguard Assurance fficial website"],
+    ["property"=>"og:site_name", "content"=>CLIENT_NAME],
+    ["property"=>"og:image", "content"=>IMAGES_URL.'cropped-Vanguard-logo-02-300x81.png'],
+//    ["property"=>"fb:app_id", "content"=>""],
+    ["property"=>"og:image:width", "content"=>"450"],
+    ["property"=>"og:image:height", "content"=>"298"],
+//    ["name"=>"twitter:card", "content"=>"summary_large_image"],
+//    ["name"=>"twitter:title", "content"=>""],   
+//    ["name"=>"twitter:url", "content"=>""],
+//    ["name"=>"twitter:site", "content"=>""],
+//    ["name"=>"twitter:creator", "content"=>""],
+//    ["name"=>"twitter:description", "content"=>""],
+//    ["name"=>"twitter:image",  "content"=>""],
+];
 
 //stylesheets to be loaded at run time
 $styles = [
