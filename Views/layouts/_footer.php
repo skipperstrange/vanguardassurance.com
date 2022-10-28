@@ -101,7 +101,7 @@
 	var $menuItem = $('.head-menu-item');
 	var activeMenuLink = '';
 	$(function() {
-   /*$menuItem.each(function(){
+   $menuItem.each(function(){
 		var $me = $(this);
 		var menu_link = $me.attr('href');
 		var contentLoaded = false;
@@ -128,7 +128,7 @@
 						e.preventDefault()
 					}
 				})
-		})*/
+		})
 		
 	})
     
