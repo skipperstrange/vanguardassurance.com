@@ -95,7 +95,7 @@ include_once PARTIALS.'sub-header.php';
 
 </div>
 
-</div>
+
 
 <!-- Locations -->
 

@@ -23,6 +23,7 @@ define('LON', '-0.1952778');
 define('LAT', '5.5636111');
 define('GOOGLE_MAPS_API_KEY', 'AIzaSyCa_kMyTsMkHPPfjekZj3ywpqJAHQCv1QA');
 define('GOOGLE_ANALYITICS_ID', '');
+define('GOOGLE_SITE_VERIFICATION', 'xSyOXcWQyXCQyRv3tQIXi3vgEVyEiTDLwS8glkA8ohs');
 
 //Apps mobile
 define('PLAYSTORE_LINK', 'https://play.google.com/store/apps/details?id=com.vanguard.app');
