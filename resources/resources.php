@@ -8,7 +8,7 @@ $metadata = [
     ['name'=>"apple-mobile-web-app-capable", 'content'=>"yes"],
     ['name'=>"apple-mobile-web-app-capable-status-bar-style", 'content'=>"blue"],
     ['name'=>"author", 'content'=>"skipperstrange@gmail.com"],
-    ['name'=>"google-site-verification", 'content'=>GOOGLE_SITE_VERIFICATION],
+ //   ['name'=>"google-site-verification", 'content'=>GOOGLE_SITE_VERIFICATION],
     ['name'=>"description", 'content'=>_meta("The no. 1 insurance company in ghana")],
 ];
 
