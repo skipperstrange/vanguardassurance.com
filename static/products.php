@@ -1,5 +1,7 @@
 <?php 
 
+//templates are found in the static/ directory
+
 $data['products']['personal_lines'] = [
     [
         'product_name'=>'motor',

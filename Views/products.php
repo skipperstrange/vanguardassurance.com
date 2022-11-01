@@ -83,11 +83,12 @@ $active = '';
                             }
                             else{
                                 echo $product['description'] ;
-                            ?></p>  
+                            ?>  
                             <p><?= $product['writeup'];?></p> 
                             <?php 
                             }
                             ?> 
+                            </p>
                         </div>
                         <?php 
                         } ?>
