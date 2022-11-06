@@ -113,7 +113,7 @@ include PARTIALS.'header-jumbo.php';
 								<?php 
                                 //echo
                                 "<div class=\"col-lg-6\">
-									<a href=\"mailto: SUPPORT_EMAIL\" class=\"btn btn-modern btn-dark mt-3\">Get In Touch</a>
+									<a href=\"mailto:". SUPPORT_EMAIL."\" class=\"btn btn-modern btn-dark mt-3\">Get In Touch</a>
 								</div>";
                                 ?>
 								<div class="col-sm-6 text-lg-right my-4 my-lg-0">
