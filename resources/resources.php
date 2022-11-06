@@ -37,10 +37,10 @@ $styles = [
 		["href"=>"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400", "rel"=>"stylesheet", "type"=>"text/css"],
 
 	//Vendor CSS
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."bootstrap/css/bootstrap.min.css"],
+		["rel"=>"stylesheet", "href"=>"https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"],
 		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."fontawesome-free/css/all.min.css"], fontawsome 5
 		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"], // fontawsome 6
-		["rel"=>"stylesheet", "href"=>VENDOR_PATH."animate/animate.min.css"],
+		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"],
 		["rel"=>"stylesheet", "href"=>VENDOR_PATH."simple-line-icons/css/simple-line-icons.min.css"],
 		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.carousel.min.css"],
 		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."owl.carousel/assets/owl.theme.default.min.css"],
@@ -66,8 +66,8 @@ $revolutionSliderCss = [
 ];
 
 $js = [
-    ["src"=>VENDOR_PATH."jquery/jquery.min.js"],
-    ["src"=>VENDOR_PATH."modernizr/modernizr.min.js"]
+    ["src"=>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"],
+    ["src"=>"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"]
 ];
 
 $footerJs = [
@@ -90,7 +90,7 @@ $footerJs = [
     ["src"=>VENDOR_PATH."jquery.easing/jquery.easing.min.js"],
     ["src"=>VENDOR_PATH."jquery.cookie/jquery.cookie.min.js"],
     ["src"=>VENDOR_PATH."popper/umd/popper.min.js"],
-    ["src"=>VENDOR_PATH."bootstrap/js/bootstrap.min.js"],
+    ["src"=>"https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"],
     ["src"=>VENDOR_PATH."common/common.min.js"],
     ["src"=>VENDOR_PATH."jquery.validation/jquery.validate.min.js"],
     ["src"=>VENDOR_PATH."jquery.easy-pie-chart/jquery.easypiechart.min.js"],

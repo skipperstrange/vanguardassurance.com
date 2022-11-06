@@ -39,7 +39,7 @@
 								<p class="pr-1">Keep up on our ever evolving product features and technology. Download the app from the app store!</p>
 							</div>
 							<div class="container">
-								<div class="row text-justify" >
+								<div class="row text-center" >
 									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
 										<a href="<?=PLAYSTORE_LINK?>" target="_blank" class="link-block-3 w-inline-block"><img class="img-fluid" src="<?= IMAGES_URL ?>play.webp" alt=""></a>	
 									</div>
@@ -101,6 +101,8 @@
 	var $menuItem = $('.head-menu-item');
 	var activeMenuLink = '';
 	$(function() {
+		$('.lazyload').lazyload();
+
    $menuItem.each(function(){
 		var $me = $(this);
 		var menu_link = $me.attr('href');

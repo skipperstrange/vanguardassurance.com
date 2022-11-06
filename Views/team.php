@@ -30,7 +30,7 @@ include PARTIALS.'header-jumbo.php';
                 <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                     <span class="thumb-info-wrapper">
                         <a href="#"  data-toggle="modal" data-target="#member_<?= $index ?>">
-                            <img src="<?= $member['img'] ?>" class="img-fluid" alt="<?= $member['name']?>">
+                            <img src="<?= $member['img'] ?>" class="img-fluid lazyload" data-src="<?=IMAGES_URL?>article-small.jpg"alt="<?= $member['name']?>">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner"><?= $member['name']?></span>
                                 <span class="thumb-info-type"><?= $member['title'] ?></span>
@@ -96,7 +96,7 @@ include PARTIALS.'header-jumbo.php';
 						<div class="col-lg-3 mt-4 mt-lg-0">
 							<div class="d-flex justify-content-center mb-4">
                                 <div class="profile-image-inner-container">
-                                    <img class="img-fluid rounded mb-4" src="<?= $member['img'] ?>" />
+                                    <img class="img-fluid rounded mb-4 lazyload" data-src="<?=IMAGES_URL?>article-small.jpg"data-src="<?=IMAGES_URL?>article-small.jpg" src="<?= $member['img'] ?>" />
                                 </div>
 							</div>
                         </div>
