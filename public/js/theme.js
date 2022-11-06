@@ -5432,9 +5432,6 @@ window.theme.fn = {
 
 				return this;
 			}
-
 		}
-
 	});
-
 }).apply(this, [window.theme, jQuery]);
