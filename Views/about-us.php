@@ -163,7 +163,6 @@ include PARTIALS.'header-jumbo.php';
 
                 <section id="partners" class="mb-4">
                     <h2 class="mb-0 text-color-dark">Partners</h2>
-
                     <div class="row mt-4">
                         <div class="content-grid content-grid-dashed col mt-4 mb-4">
                             <div class="row content-grid-row">
@@ -171,7 +170,6 @@ include PARTIALS.'header-jumbo.php';
                                 <div class="content-grid-item col-sm-4 text-center">
                                     <div class="p-4">
                                         <img class="img-fluid" style="max-width:118px;" src="<?= IMAGES_URL.$partner['logo'] ?>" alt="">
-                                    
                                     </div>
                                 </div>
                                 <?php endforeach; ?>

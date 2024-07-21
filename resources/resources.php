@@ -37,7 +37,10 @@ $styles = [
 		["href"=>"https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light%7CPlayfair+Display:400", "rel"=>"stylesheet", "type"=>"text/css"],
 
 	//Vendor CSS
-		["rel"=>"stylesheet", "href"=>"https://cdn.usebootstrap.com/bootstrap/4.4.1/css/bootstrap.min.css"],
+        // CDN bootstrap
+		["rel"=>"stylesheet", "href"=>CSS_PATH."bootstrap.min.css"],
+
+        //local bootstrap copy["rel"=>"stylesheet", "href"=>CSS_PATH."bootstrap.min.css"],
 		//["rel"=>"stylesheet", "href"=>VENDOR_PATH."fontawesome-free/css/all.min.css"], fontawsome 5
 		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"], // fontawsome 6
 		["rel"=>"stylesheet", "href"=>"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"],
@@ -66,8 +69,12 @@ $revolutionSliderCss = [
 ];
 
 $js = [
-    ["src"=>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"],
-    ["src"=>"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"]
+    // CDN links
+    //["src"=>"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"],
+    ["src"=>"https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"],
+
+    //local copies
+    ["src"=>JS_PATH."jquery.min.js"],
 ];
 
 $footerJs = [
@@ -90,10 +97,10 @@ $footerJs = [
     ["src"=>VENDOR_PATH."jquery.easing/jquery.easing.min.js"],
     ["src"=>VENDOR_PATH."jquery.cookie/jquery.cookie.min.js"],
     ["src"=>VENDOR_PATH."popper/umd/popper.min.js"],
-    ["src"=>"https://cdn.usebootstrap.com/bootstrap/4.4.1/js/bootstrap.min.js"],
+    ["src"=>JS_PATH."bootstrap.min.js"],
     ["src"=>VENDOR_PATH."common/common.min.js"],
     ["src"=>VENDOR_PATH."jquery.validation/jquery.validate.min.js"],
-    ["src"=>VENDOR_PATH."jquery.easy-pie-chart/jquery.easypiechart.min.js"],
+    //["src"=>VENDOR_PATH."jquery.easy-pie-chart/jquery.easypiechart.min.js"],
     ["src"=>VENDOR_PATH."jquery.gmap/jquery.gmap.min.js"],
     ["src"=>VENDOR_PATH."jquery.lazyload/jquery.lazyload.min.js"],
     ["src"=>VENDOR_PATH."isotope/jquery.isotope.min.js"],
